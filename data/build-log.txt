@@ -1,4 +1,4 @@
-2026-10-14T11:22:31.485840+00:00
+2026-10-14T11:36:10.706437+00:00
 CT.gov query intr: 4477 studies
 CT.gov query titles: 1058 studies
 CT.gov query term: 4949 studies
@@ -23,6 +23,6 @@ EU CTIS search 'wearable injector': 1 trials
 EU CTIS search 'dual chamber': 1 trials
 EU CTIS search 'implant': 42 trials
 EU CTIS ongoing Phase 2/3 candidates: 289
-EU CTIS trials listing a device for a parenteral product: 106
-Trials added from the EU register: 84
-Rows published: 296
+EU CTIS trials listing a device for a parenteral product: 104
+Trials added from the EU register: 82
+Rows published: 294

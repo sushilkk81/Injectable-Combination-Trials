@@ -2,10 +2,10 @@
  "meta": {
   "updated": "2026-10-14",
   "updated_label": "14 Oct 2026",
-  "count": 296,
-  "us_share": 0.6,
+  "count": 294,
+  "us_share": 0.69,
   "europe_share": 0.22,
-  "share_basis": "Assumed split for a newly launched specialty injectable: US 60%, Europe 22%, rest of world 18%. Based on the US and Europe shares of launch-year sales for new medicines reported by IQVIA (see source on page).",
+  "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
   "share_source_title": "",
   "share_source_url": ""
  },
@@ -100,7 +100,22 @@
    ],
    "india": true,
    "ncountries": 37,
-   "rev": null
+   "rev": {
+    "asset": "Ofatumumab (Kesimpta)",
+    "kind": "actual",
+    "ww": 4.43,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novartis Q4 2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
+    "date": "2026-02-04",
+    "note": "",
+    "us": 3.06,
+    "europe": 0.97,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04822181",
@@ -192,7 +207,22 @@
    ],
    "india": true,
    "ncountries": 39,
-   "rev": null
+   "rev": {
+    "asset": "Semaglutide (Ozempic + Wegovy)",
+    "kind": "actual",
+    "ww": 31.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novo Nordisk FY2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000006/caq42025.htm",
+    "date": "2026-02-03",
+    "note": "DKK 206,195m (Ozempic 127,089m, Wegovy 79,106m) at Novo 2025 average DKK 6.62/$",
+    "us": 21.49,
+    "europe": 6.85,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04926818",
@@ -258,7 +288,22 @@
    "ukch": [],
    "india": true,
    "ncountries": 25,
-   "rev": null
+   "rev": {
+    "asset": "Ofatumumab (Kesimpta)",
+    "kind": "actual",
+    "ww": 4.43,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novartis Q4 2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
+    "date": "2026-02-04",
+    "note": "",
+    "us": 3.06,
+    "europe": 0.97,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04957719",
@@ -359,7 +404,22 @@
    ],
    "india": true,
    "ncountries": 45,
-   "rev": null
+   "rev": {
+    "asset": "Selatogrel",
+    "kind": "forecast",
+    "ww": 1.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Viatris R&D day",
+    "url": "https://investor.viatris.com/static-files/b01a07f3-e549-4522-8480-c31b359a6a4f",
+    "date": "2024-03-27",
+    "note": "Company says \"blockbuster\" potential; no figure given",
+    "us": 0.69,
+    "europe": 0.22,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05197049",
@@ -429,7 +489,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 27,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05347095",
@@ -495,7 +570,22 @@
    ],
    "india": false,
    "ncountries": 23,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05528510",
@@ -559,7 +649,22 @@
    "ukch": [],
    "india": true,
    "ncountries": 25,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06405087",
@@ -614,7 +719,20 @@
    ],
    "india": false,
    "ncountries": 14,
-   "rev": null
+   "rev": {
+    "asset": "Vedolizumab (Entyvio)",
+    "kind": "actual",
+    "ww": 6.39,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY ending Mar 2026",
+    "source": "Takeda FY2025 results",
+    "url": "https://www.sec.gov/Archives/edgar/data/1395064/000139506426000145/form6k_051326.htm",
+    "date": "2026-05-13",
+    "note": "JPY 958.0bn at JPY 150/$; Europe figure includes Canada",
+    "us": 4.16,
+    "europe": 1.71
+   }
   },
   {
    "nct": "NCT06408935",
@@ -666,7 +784,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 14,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07083154",
@@ -827,7 +960,22 @@
    ],
    "india": false,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07577843",
@@ -871,7 +1019,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Guselkumab: Solution for injection in pre-filled syringe · Device: 2 mL YpsoMate autoinjector (PFS-Y) — 2 mL YpsoMate device is a 2-step autoinjector housing a…",
+   "ev": "JNJ-78934804: Solution for injection · Device: 2 mL YpsoMate autoinjector (PFS-Y) — 2 mL YpsoMate device is a 2-step autoinjector housing a pre-filled syringe …",
    "eu": "2026-525922-39-00",
    "src": "EU",
    "us": true,
@@ -890,7 +1038,20 @@
    "ukch": [],
    "india": true,
    "ncountries": 23,
-   "rev": null
+   "rev": {
+    "asset": "JNJ-4804 (guselkumab + golimumab)",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07577856",
@@ -972,7 +1133,20 @@
    ],
    "india": true,
    "ncountries": 32,
-   "rev": null
+   "rev": {
+    "asset": "JNJ-4804 (guselkumab + golimumab)",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07642050",
@@ -1183,11 +1357,11 @@
     "United Kingdom"
    ],
    "cats": [
-    "Prefilled syringe",
-    "Autoinjector"
+    "Autoinjector",
+    "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "STELARA 90 mg solution for injection in pre-filled syringe: Solution for injection in pre-filled syringe",
+   "ev": "Guselkumab: Solution for injection in pre-filled syringe · Device: PFS-U: UltraSafe Plus™ Passive Needle Guard PFS-Y: YpsoMate autoinjector — UltraSafe Plus™ P…",
    "eu": "2023-504736-18-00",
    "src": "EU",
    "us": true,
@@ -1214,7 +1388,22 @@
    ],
    "india": true,
    "ncountries": 43,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05166343",
@@ -1690,7 +1879,20 @@
    ],
    "india": false,
    "ncountries": 7,
-   "rev": null
+   "rev": {
+    "asset": "Dupilumab (Dupixent)",
+    "kind": "actual",
+    "ww": 17.73,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Sanofi FY2025 results",
+    "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-01-29-06-30-00-3228191-en.pdf",
+    "date": "2026-01-29",
+    "note": "EUR 15,714m; converted at ECB 2025 average $1.128",
+    "us": 13.01,
+    "europe": 2.21
+   }
   },
   {
    "nct": "NCT03811561",
@@ -1751,7 +1953,22 @@
    ],
    "india": true,
    "ncountries": 19,
-   "rev": null
+   "rev": {
+    "asset": "Semaglutide (Ozempic + Wegovy)",
+    "kind": "actual",
+    "ww": 31.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novo Nordisk FY2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000006/caq42025.htm",
+    "date": "2026-02-03",
+    "note": "DKK 206,195m (Ozempic 127,089m, Wegovy 79,106m) at Novo 2025 average DKK 6.62/$",
+    "us": 21.49,
+    "europe": 6.85,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04082429",
@@ -2345,7 +2562,22 @@
    ],
    "india": false,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Semaglutide (Ozempic + Wegovy)",
+    "kind": "actual",
+    "ww": 31.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novo Nordisk FY2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000006/caq42025.htm",
+    "date": "2026-02-03",
+    "note": "DKK 206,195m (Ozempic 127,089m, Wegovy 79,106m) at Novo 2025 average DKK 6.62/$",
+    "us": 21.49,
+    "europe": 6.85,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05778071",
@@ -2398,7 +2630,22 @@
    ],
    "india": false,
    "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Eneboparatide",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 1.0,
+    "ww_high": 3.0,
+    "period": "peak",
+    "source": "AstraZeneca Investor Day 2024 (non-risk-adjusted)",
+    "url": "https://www.astrazeneca.com/content/dam/az/Investor_Relations/events/ID/Rare-Disease-presentation.pdf",
+    "date": "2024-05-21",
+    "note": "",
+    "us": 1.38,
+    "europe": 0.44,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05819138",
@@ -3025,7 +3272,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Lebrikizumab (Ebglyss, Europe)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Almirall target, via Investing.com",
+    "url": "https://www.investing.com/news/earnings/almirall-cosses-1-bln-in-sales-as-eczema-drug-ebglyss-triples-in-fy25-4517798",
+    "date": "2026-02-23",
+    "note": "Almirall holds European rights: peak above EUR 450m; FY2025 European sales EUR 110.8m",
+    "us": null,
+    "europe": 0.51
+   }
   },
   {
    "nct": "NCT06630585",
@@ -3102,7 +3362,20 @@
    ],
    "india": false,
    "ncountries": 11,
-   "rev": null
+   "rev": {
+    "asset": "Belimumab (Benlysta)",
+    "kind": "actual",
+    "ww": 2.32,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "GSK FY2025 results",
+    "url": "https://www.gsk.com/media/g0lnid23/fy-2025-results-announcement.pdf",
+    "date": "2026-02-04",
+    "note": "GBP 1,773m at GSK 2025 average $1.31",
+    "us": 1.92,
+    "europe": 0.18
+   }
   },
   {
    "nct": "NCT06859099",
@@ -3228,7 +3501,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "CagriSema",
+    "kind": "forecast",
+    "ww": 2.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Barclays, via Reuters",
+    "url": "https://www.investing.com/news/economy-news/barclays-slashes-sales-forecasts-for-novos-cagrisema-by-more-than-80-4520638",
+    "date": "2026-02-24",
+    "note": "Cut from $12bn after Phase 3 data",
+    "us": 1.38,
+    "europe": 0.44,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07076199",
@@ -3298,7 +3586,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Palopegteriparatide (Yorvipath)",
+    "kind": "actual",
+    "ww": 0.54,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Ascendis FY2025 results",
+    "url": "https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-pharma-reports-fourth-quarter-and-full-year-2025",
+    "date": "2026-02-11",
+    "note": "EUR 477m at $1.128",
+    "us": 0.37,
+    "europe": 0.12,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07219420",
@@ -3351,7 +3654,20 @@
    ],
    "india": false,
    "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Bimekizumab (Bimzelx)",
+    "kind": "actual",
+    "ww": 2.51,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "UCB FY2025 report",
+    "url": "https://www.ucb.com/sites/default/files/2026-02/UCB-PR-2025-FY-Results-ENG.pdf",
+    "date": "2026-02-26",
+    "note": "EUR 2,227m at $1.128",
+    "us": 1.87,
+    "europe": 0.48
+   }
   },
   {
    "nct": "NCT07220642",
@@ -3397,7 +3713,20 @@
    ],
    "india": false,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Cagrilintide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07220759",
@@ -3445,7 +3774,20 @@
    ],
    "india": false,
    "ncountries": 11,
-   "rev": null
+   "rev": {
+    "asset": "Cagrilintide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07221851",
@@ -3486,7 +3828,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 7,
-   "rev": null
+   "rev": {
+    "asset": "Lonapegsomatropin (Skytrofa)",
+    "kind": "actual",
+    "ww": 0.23,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Ascendis FY2025 results",
+    "url": "https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-pharma-reports-fourth-quarter-and-full-year-2025",
+    "date": "2026-02-11",
+    "note": "EUR 206m at $1.128",
+    "us": 0.16,
+    "europe": 0.05,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07226089",
@@ -3514,7 +3871,7 @@
    "ev": "eously (s.c) once weekly using a multi dose disposable prefilled pen for single patient use intended for SC self injection.",
    "src": "CT",
    "eu": "2025-523832-38-00",
-   "ev_eu": "GENOTROPIN 12 mg powder and solvent for solution for injection.: Solution for injection · Device: Genotropin Pen 12 — Genotropin Pen 12 Growth Hormone Delivery…",
+   "ev_eu": "GENOTROPIN 12 mg powder and solvent for solution for injection. (comparator): Solution for injection · Device: Genotropin Pen 12 — Genotropin Pen 12 Growth Hor…",
    "us": true,
    "eea": [
     "FR"
@@ -3560,7 +3917,22 @@
    "ukch": [],
    "india": true,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "CagriSema",
+    "kind": "forecast",
+    "ww": 2.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Barclays, via Reuters",
+    "url": "https://www.investing.com/news/economy-news/barclays-slashes-sales-forecasts-for-novos-cagrisema-by-more-than-80-4520638",
+    "date": "2026-02-24",
+    "note": "Cut from $12bn after Phase 3 data",
+    "us": 1.38,
+    "europe": 0.44,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07339423",
@@ -3604,7 +3976,20 @@
    ],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07400107",
@@ -3655,7 +4040,20 @@
    "ukch": [],
    "india": true,
    "ncountries": 14,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07481630",
@@ -3700,7 +4098,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07509307",
@@ -3746,7 +4157,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 11,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07533175",
@@ -3790,7 +4214,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07571005",
@@ -3833,7 +4270,20 @@
    "ukch": [],
    "india": true,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07571109",
@@ -3875,7 +4325,20 @@
    "ukch": [],
    "india": true,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07581145",
@@ -3975,7 +4438,20 @@
    "ukch": [],
    "india": true,
    "ncountries": 5,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07668414",
@@ -4004,7 +4480,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07691970",
@@ -4085,7 +4574,22 @@
    ],
    "india": true,
    "ncountries": 35,
-   "rev": null
+   "rev": {
+    "asset": "Anifrolumab (Saphnelo)",
+    "kind": "actual",
+    "ww": 0.69,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 0.48,
+    "europe": 0.15,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07738276",
@@ -4166,7 +4670,20 @@
    ],
    "india": true,
    "ncountries": 16,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07822061",
@@ -4195,7 +4712,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Amycretin / zenagamtide",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07836283",
@@ -4321,7 +4851,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 4,
-   "rev": null
+   "rev": {
+    "asset": "CAM2029 (octreotide depot)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.0,
+    "ww_high": 2.7,
+    "period": "peak",
+    "source": "Camurus company presentation",
+    "url": "https://www.camurus.com/files/Presentations/camurus-company-presentation-october-2025.pdf",
+    "date": "2025-10",
+    "note": "Company: US $1.55-2.08bn, EU/AUS EUR 410-565m across acromegaly, GEP-NET and PLD",
+    "us": 1.82,
+    "europe": 0.55
+   }
   },
   {
    "nct": "NCT06423599",
@@ -4919,7 +5462,7 @@
     "Pen injector"
    ],
    "basis": "E",
-   "ev": "Ozempic 0.5 mg solution for injection in pre-filled pen: Solution for injection · Device: NA — The PDS290 pen-injector used in clinical trials is a disposable,…",
+   "ev": "Ozempic 0.5 mg solution for injection in pre-filled pen (comparator): Solution for injection · Device: NA — The PDS290 pen-injector used in clinical trials is …",
    "eu": "2024-510846-15-00",
    "src": "EU",
    "us": true,
@@ -5160,7 +5703,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Anifrolumab (Saphnelo)",
+    "kind": "actual",
+    "ww": 0.69,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 0.48,
+    "europe": 0.15,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "title": "Efficacy and Safety of Lebrikizumab in Adults and Adolescents with Face and Neck Atopic Dermatitis",
@@ -5201,7 +5759,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 6,
-   "rev": null
+   "rev": {
+    "asset": "Lebrikizumab (Ebglyss, Europe)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Almirall target, via Investing.com",
+    "url": "https://www.investing.com/news/earnings/almirall-cosses-1-bln-in-sales-as-eczema-drug-ebglyss-triples-in-fy25-4517798",
+    "date": "2026-02-23",
+    "note": "Almirall holds European rights: peak above EUR 450m; FY2025 European sales EUR 110.8m",
+    "us": null,
+    "europe": 0.51
+   }
   },
   {
    "nct": "NCT03105102",
@@ -5304,7 +5875,21 @@
    ],
    "india": false,
    "ncountries": 47,
-   "rev": null
+   "rev": {
+    "asset": "Risankizumab (Skyrizi)",
+    "kind": "actual",
+    "ww": 17.56,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AbbVie FY2025 results",
+    "url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+    "date": "2026-02-04",
+    "note": "International $2.36bn; Europe not reported separately",
+    "us": 15.2,
+    "europe": 1.67,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT03398135",
@@ -5399,7 +5984,21 @@
    ],
    "india": false,
    "ncountries": 43,
-   "rev": null
+   "rev": {
+    "asset": "Risankizumab (Skyrizi)",
+    "kind": "actual",
+    "ww": 17.56,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AbbVie FY2025 results",
+    "url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+    "date": "2026-02-04",
+    "note": "International $2.36bn; Europe not reported separately",
+    "us": 15.2,
+    "europe": 1.67,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT03451851",
@@ -5443,7 +6042,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT03675308",
@@ -5532,7 +6146,21 @@
    ],
    "india": false,
    "ncountries": 39,
-   "rev": null
+   "rev": {
+    "asset": "Risankizumab (Skyrizi)",
+    "kind": "actual",
+    "ww": 17.56,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AbbVie FY2025 results",
+    "url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+    "date": "2026-02-04",
+    "note": "International $2.36bn; Europe not reported separately",
+    "us": 15.2,
+    "europe": 1.67,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04157348",
@@ -5577,7 +6205,20 @@
    ],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Benralizumab (Fasenra)",
+    "kind": "actual",
+    "ww": 1.98,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 1.2,
+    "europe": 0.48
+   }
   },
   {
    "nct": "NCT04158362",
@@ -5696,7 +6337,20 @@
    ],
    "india": true,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "Benralizumab (Fasenra)",
+    "kind": "actual",
+    "ww": 1.98,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 1.2,
+    "europe": 0.48
+   }
   },
   {
    "nct": "NCT04285086",
@@ -5839,7 +6493,21 @@
    ],
    "india": false,
    "ncountries": 31,
-   "rev": null
+   "rev": {
+    "asset": "Risankizumab (Skyrizi)",
+    "kind": "actual",
+    "ww": 17.56,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AbbVie FY2025 results",
+    "url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+    "date": "2026-02-04",
+    "note": "International $2.36bn; Europe not reported separately",
+    "us": 15.2,
+    "europe": 1.67,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04573478",
@@ -5970,7 +6638,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Atacicept",
+    "kind": "forecast",
+    "ww": 2.2,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "BofA Securities, via TipRanks",
+    "url": "https://www.tipranks.com/news/ratings/maintaining-the-bull-case-on-vera-atacicepts-competitive-edge-and-2-2b-igan-peak-sales-upside-ratings-news",
+    "date": "2026-03-10",
+    "note": "IgA nephropathy only",
+    "us": 1.52,
+    "europe": 0.48,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04877691",
@@ -6021,7 +6704,22 @@
    ],
    "india": false,
    "ncountries": 15,
-   "rev": null
+   "rev": {
+    "asset": "Anifrolumab (Saphnelo)",
+    "kind": "actual",
+    "ww": 0.69,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 0.48,
+    "europe": 0.15,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT04882098",
@@ -6093,7 +6791,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 29,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05030428",
@@ -6196,7 +6909,22 @@
    "ukch": [],
    "india": true,
    "ncountries": 50,
-   "rev": null
+   "rev": {
+    "asset": "Inclisiran (Leqvio)",
+    "kind": "actual",
+    "ww": 1.2,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novartis Q4 2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
+    "date": "2026-02-04",
+    "note": "",
+    "us": 0.83,
+    "europe": 0.26,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05038735",
@@ -6290,7 +7018,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "SANDOSTATIN LAR 30 mg powder and solvent for suspension for injection: Suspension for injection · Device: See description — Pre-filled syringe (clear polypropy…",
+   "ev": "SANDOSTATIN LAR 30 mg powder and solvent for suspension for injection (comparator): Suspension for injection · Device: See description — Pre-filled syringe (cl…",
    "eu": "2023-508723-12-00",
    "src": "EU",
    "us": true,
@@ -6307,7 +7035,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 12,
-   "rev": null
+   "rev": {
+    "asset": "CAM2029 (octreotide depot)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.0,
+    "ww_high": 2.7,
+    "period": "peak",
+    "source": "Camurus company presentation",
+    "url": "https://www.camurus.com/files/Presentations/camurus-company-presentation-october-2025.pdf",
+    "date": "2025-10",
+    "note": "Company: US $1.55-2.08bn, EU/AUS EUR 410-565m across acromegaly, GEP-NET and PLD",
+    "us": 1.82,
+    "europe": 0.55
+   }
   },
   {
    "nct": "NCT05112861",
@@ -6461,7 +7202,22 @@
    ],
    "india": false,
    "ncountries": 18,
-   "rev": null
+   "rev": {
+    "asset": "Depemokimab (Exdensur)",
+    "kind": "forecast",
+    "ww": 3.7,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "GSK, via pharmaphorum",
+    "url": "https://pharmaphorum.com/news/gsk-closes-approval-asthma-hope-depemokimab",
+    "date": "2025-12-15",
+    "note": "GBP 3bn across all proposed indications",
+    "us": 2.55,
+    "europe": 0.81,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05334368",
@@ -6514,7 +7270,22 @@
    ],
    "india": false,
    "ncountries": 16,
-   "rev": null
+   "rev": {
+    "asset": "Depemokimab (Exdensur)",
+    "kind": "forecast",
+    "ww": 3.7,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "GSK, via pharmaphorum",
+    "url": "https://pharmaphorum.com/news/gsk-closes-approval-asthma-hope-depemokimab",
+    "date": "2025-12-15",
+    "note": "GBP 3bn across all proposed indications",
+    "us": 2.55,
+    "europe": 0.81,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05337553",
@@ -6802,7 +7573,22 @@
    ],
    "india": false,
    "ncountries": 22,
-   "rev": null
+   "rev": {
+    "asset": "Gefurulimab",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 1.0,
+    "ww_high": 3.0,
+    "period": "peak",
+    "source": "AstraZeneca guidance, via Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/astrazenecas-blockbuster-contender-hits-phase-3-goals-fueling-myasthenia-gravis-fightback",
+    "date": "2025-07-24",
+    "note": "Company range from its 2024 investor day",
+    "us": 1.38,
+    "europe": 0.44,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05583227",
@@ -6869,7 +7655,20 @@
    ],
    "india": false,
    "ncountries": 22,
-   "rev": null
+   "rev": {
+    "asset": "Tezepelumab (Tezspire)",
+    "kind": "actual",
+    "ww": 1.13,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "As reported by AstraZeneca (Amgen collaboration)",
+    "us": 0.67,
+    "europe": 0.3
+   }
   },
   {
    "nct": "NCT05627375",
@@ -6944,7 +7743,20 @@
    ],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Benralizumab (Fasenra)",
+    "kind": "actual",
+    "ww": 1.98,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 1.2,
+    "europe": 0.48
+   }
   },
   {
    "nct": "NCT05739383",
@@ -7039,7 +7851,22 @@
    ],
    "india": true,
    "ncountries": 42,
-   "rev": null
+   "rev": {
+    "asset": "Inclisiran (Leqvio)",
+    "kind": "actual",
+    "ww": 1.2,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novartis Q4 2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
+    "date": "2026-02-04",
+    "note": "",
+    "us": 0.83,
+    "europe": 0.26,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05852938",
@@ -7158,7 +7985,22 @@
    ],
    "india": false,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05979441",
@@ -7235,7 +8077,22 @@
    ],
    "india": false,
    "ncountries": 29,
-   "rev": null
+   "rev": {
+    "asset": "Efgartigimod (Vyvgart)",
+    "kind": "actual",
+    "ww": 4.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "argenx FY2025 results",
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245199/0/en/argenx-Reports-Full-Year-2025-Financial-Results-and-Provides-Fourth-Quarter-Business-Update.html",
+    "date": "2026-02-26",
+    "note": "",
+    "us": 2.86,
+    "europe": 0.91,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06007183",
@@ -7341,7 +8198,22 @@
    ],
    "india": false,
    "ncountries": 32,
-   "rev": null
+   "rev": {
+    "asset": "Anifrolumab (Saphnelo)",
+    "kind": "actual",
+    "ww": 0.69,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 0.48,
+    "europe": 0.15,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06087640",
@@ -7382,7 +8254,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "FLUARIX (Influenza Vaccine): Suspension for injection · Device: — pre-filled syringe",
+   "ev": "FLUARIX (Influenza Vaccine) (comparator): Suspension for injection · Device: — pre-filled syringe",
    "eu": "2022-503004-24-00",
    "src": "EU",
    "us": true,
@@ -7458,7 +8330,20 @@
    ],
    "india": false,
    "ncountries": 16,
-   "rev": null
+   "rev": {
+    "asset": "Vedolizumab (Entyvio)",
+    "kind": "actual",
+    "ww": 6.39,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY ending Mar 2026",
+    "source": "Takeda FY2025 results",
+    "url": "https://www.sec.gov/Archives/edgar/data/1395064/000139506426000145/form6k_051326.htm",
+    "date": "2026-05-13",
+    "note": "JPY 958.0bn at JPY 150/$; Europe figure includes Canada",
+    "us": 4.16,
+    "europe": 1.71
+   }
   },
   {
    "nct": "NCT06100744",
@@ -7503,7 +8388,21 @@
    ],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Risankizumab (Skyrizi)",
+    "kind": "actual",
+    "ww": 17.56,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AbbVie FY2025 results",
+    "url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+    "date": "2026-02-04",
+    "note": "International $2.36bn; Europe not reported separately",
+    "us": 15.2,
+    "europe": 1.67,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06153394",
@@ -7529,37 +8428,6 @@
    "eu": "",
    "us": false,
    "eea": [],
-   "ukch": [],
-   "india": false,
-   "ncountries": 1,
-   "rev": null
-  },
-  {
-   "nct": "NCT06195540",
-   "title": "RIVAroxaban Versus Low-molecular Weight Heparin in Patients With Lower Limb Trauma Requiring Brace or CASTing",
-   "phase": "3",
-   "status": "Recruiting",
-   "sponsor": "University Hospital, Angers",
-   "stype": "Non-industry",
-   "drugs": "Rivaroxaban 10 MG; Low Heparin Molecular Weight",
-   "cond": "Venous Thromboembolism; Deep Vein Thrombosis",
-   "n": 1424,
-   "start": "2024-07",
-   "pcd": "2028-11",
-   "countries": [
-    "France"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": "INNOHEP 4 500 UI anti-Xa/0,45 ml, solution injectable en seringue préremplie: Solution for injection in pre-filled syringe",
-   "eu": "2023-509905-62-00",
-   "src": "EU",
-   "us": false,
-   "eea": [
-    "FR"
-   ],
    "ukch": [],
    "india": false,
    "ncountries": 1,
@@ -7613,7 +8481,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06297096",
@@ -7834,7 +8717,20 @@
    ],
    "india": true,
    "ncountries": 27,
-   "rev": null
+   "rev": {
+    "asset": "Amlitelimab",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "Sanofi stopped development in atopic dermatitis in 2026",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT06419374",
@@ -7936,7 +8832,20 @@
    ],
    "india": false,
    "ncountries": 4,
-   "rev": null
+   "rev": {
+    "asset": "Zilucoplan (Zilbrysq)",
+    "kind": "actual",
+    "ww": 0.24,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "UCB FY2025 report",
+    "url": "https://www.ucb.com/sites/default/files/2026-02/UCB-PR-2025-FY-Results-ENG.pdf",
+    "date": "2026-02-26",
+    "note": "EUR 217m at $1.128",
+    "us": 0.18,
+    "europe": 0.04
+   }
   },
   {
    "nct": "NCT06466785",
@@ -8088,7 +8997,22 @@
    ],
    "india": false,
    "ncountries": 25,
-   "rev": null
+   "rev": {
+    "asset": "Efgartigimod (Vyvgart)",
+    "kind": "actual",
+    "ww": 4.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "argenx FY2025 results",
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245199/0/en/argenx-Reports-Full-Year-2025-Financial-Results-and-Provides-Fourth-Quarter-Business-Update.html",
+    "date": "2026-02-26",
+    "note": "",
+    "us": 2.86,
+    "europe": 0.91,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06564142",
@@ -8206,7 +9130,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 5,
-   "rev": null
+   "rev": {
+    "asset": "Gefurulimab",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 1.0,
+    "ww_high": 3.0,
+    "period": "peak",
+    "source": "AstraZeneca guidance, via Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/astrazenecas-blockbuster-contender-hits-phase-3-goals-fueling-myasthenia-gravis-fightback",
+    "date": "2025-07-24",
+    "note": "Company range from its 2024 investor day",
+    "us": 1.38,
+    "europe": 0.44,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06630559",
@@ -8489,7 +9428,22 @@
    ],
    "india": false,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06679946",
@@ -8548,7 +9502,22 @@
    ],
    "india": false,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "Vutrisiran (Amvuttra)",
+    "kind": "actual",
+    "ww": 2.31,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Alnylam FY2025 results",
+    "url": "https://www.nasdaq.com/press-release/alnylam-pharmaceuticals-reports-fourth-quarter-and-full-year-2025-financial-results",
+    "date": "2026-02-12",
+    "note": "",
+    "us": 1.59,
+    "europe": 0.51,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06684847",
@@ -8636,7 +9605,22 @@
    ],
    "india": false,
    "ncountries": 39,
-   "rev": null
+   "rev": {
+    "asset": "Efgartigimod (Vyvgart)",
+    "kind": "actual",
+    "ww": 4.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "argenx FY2025 results",
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245199/0/en/argenx-Reports-Full-Year-2025-Financial-Results-and-Provides-Fourth-Quarter-Business-Update.html",
+    "date": "2026-02-26",
+    "note": "",
+    "us": 2.86,
+    "europe": 0.91,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06813911",
@@ -8670,7 +9654,7 @@
    "ev": "lacarsen will be provided as solution for injection in prefilled syringe 80 mg for subcutaneous injection. Placebo. Placebo w",
    "src": "CT",
    "eu": "2024-516356-18-00",
-   "ev_eu": "INCLISIRAN: Solution for injection · Device: NA — Pre-filled syringe with needle safety device | NA — Pre-filled syringe",
+   "ev_eu": "TQJ230: Solution for injection in pre-filled syringe · Device: — Pre-filled syringe in needle safety device",
    "us": true,
    "eea": [
     "DE",
@@ -8684,7 +9668,20 @@
    ],
    "india": false,
    "ncountries": 11,
-   "rev": null
+   "rev": {
+    "asset": "Pelacarsen",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "William Blair, via BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novartis-ionis-pelacarsen-lpa-horizon-study-results-fail/829736/",
+    "date": "2026-09-05",
+    "note": "US-only estimate made before the HORIZON outcomes trial failed (Sep 2026)",
+    "us": 6.0,
+    "europe": null
+   }
   },
   {
    "nct": "NCT06834347",
@@ -8746,7 +9743,22 @@
    ],
    "india": false,
    "ncountries": 21,
-   "rev": null
+   "rev": {
+    "asset": "Itepekimab",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "Set before the mixed Phase 3 COPD results (May 2025)",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06834360",
@@ -8811,7 +9823,22 @@
    ],
    "india": false,
    "ncountries": 23,
-   "rev": null
+   "rev": {
+    "asset": "Itepekimab",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "Set before the mixed Phase 3 COPD results (May 2025)",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT06868212",
@@ -8900,7 +9927,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 22,
-   "rev": null
+   "rev": {
+    "asset": "Tezepelumab (Tezspire)",
+    "kind": "actual",
+    "ww": 1.13,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "As reported by AstraZeneca (Amgen collaboration)",
+    "us": 0.67,
+    "europe": 0.3
+   }
   },
   {
    "nct": "NCT06878404",
@@ -9008,59 +10048,20 @@
    ],
    "india": true,
    "ncountries": 18,
-   "rev": null
-  },
-  {
-   "nct": "NCT06934226",
-   "title": "A Study to Assess Efficacy and Safety of JNJ-77242113 Compared to Placebo and Ustekinumab in Participants With Moderate to Severe Plaque Ps…",
-   "phase": "3",
-   "status": "Active, not recruiting",
-   "sponsor": "Janssen Research & Development, LLC",
-   "stype": "Industry",
-   "drugs": "JNJ-77242113; Ustekinumab",
-   "cond": "Plaque Psoriasis",
-   "n": 752,
-   "start": "2025-04",
-   "pcd": "2025-11",
-   "countries": [
-    "United States",
-    "Argentina",
-    "Australia",
-    "Austria",
-    "Belgium",
-    "Canada",
-    "Denmark",
-    "Germany",
-    "Hungary",
-    "Poland",
-    "Portugal",
-    "Spain",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": "STELARA 90 mg solution for injection in pre-filled syringe: Solution for injection in pre-filled syringe · Device: —",
-   "eu": "2024-515706-77-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "AT",
-    "BE",
-    "DE",
-    "DK",
-    "ES",
-    "HU",
-    "PL",
-    "PT"
-   ],
-   "ukch": [
-    "UK"
-   ],
-   "india": false,
-   "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Tezepelumab (Tezspire)",
+    "kind": "actual",
+    "ww": 1.13,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "As reported by AstraZeneca (Amgen collaboration)",
+    "us": 0.67,
+    "europe": 0.3
+   }
   },
   {
    "nct": "NCT07041190",
@@ -9156,7 +10157,22 @@
    ],
    "india": false,
    "ncountries": 25,
-   "rev": null
+   "rev": {
+    "asset": "Lunsekimig",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07190222",
@@ -9223,7 +10239,22 @@
    ],
    "india": false,
    "ncountries": 26,
-   "rev": null
+   "rev": {
+    "asset": "Lunsekimig",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07215949",
@@ -9294,7 +10325,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Amvuttra 25 mg solution for injection in pre-filled syringe: Solution for injection · Device: Not applicable — Vutrisiran drug product (DP) is supplied as a 0.…",
+   "ev": "ALN-TTRSC04: Solution for injection · Device: Not applicable — Nucresiran drug product (DP) is supplied as a 1.5 mL fill in a 2.25 mL single-use glass prefille…",
    "eu": "2025-522544-40-00",
    "src": "EU",
    "us": true,
@@ -9315,7 +10346,20 @@
    ],
    "india": false,
    "ncountries": 22,
-   "rev": null
+   "rev": {
+    "asset": "Nucresiran",
+    "kind": "none",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "",
+    "source": "",
+    "url": "",
+    "date": "",
+    "note": "No public sales forecast found",
+    "us": null,
+    "europe": null
+   }
   },
   {
    "nct": "NCT07232706",
@@ -9488,7 +10532,22 @@
    ],
    "india": false,
    "ncountries": 13,
-   "rev": null
+   "rev": {
+    "asset": "Itepekimab",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "Set before the mixed Phase 3 COPD results (May 2025)",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07430306",
@@ -9531,7 +10590,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Anifrolumab (Saphnelo)",
+    "kind": "actual",
+    "ww": 0.69,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 0.48,
+    "europe": 0.15,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07444567",
@@ -9583,7 +10657,20 @@
    ],
    "india": true,
    "ncountries": 14,
-   "rev": null
+   "rev": {
+    "asset": "Benralizumab (Fasenra)",
+    "kind": "actual",
+    "ww": 1.98,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "AstraZeneca FY2025 results",
+    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "date": "2026-02-10",
+    "note": "",
+    "us": 1.2,
+    "europe": 0.48
+   }
   },
   {
    "nct": "NCT07456033",
@@ -9615,7 +10702,22 @@
    ],
    "india": false,
    "ncountries": 2,
-   "rev": null
+   "rev": {
+    "asset": "Depemokimab (Exdensur)",
+    "kind": "forecast",
+    "ww": 3.7,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "GSK, via pharmaphorum",
+    "url": "https://pharmaphorum.com/news/gsk-closes-approval-asthma-hope-depemokimab",
+    "date": "2025-12-15",
+    "note": "GBP 3bn across all proposed indications",
+    "us": 2.55,
+    "europe": 0.81,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07467707",
@@ -9676,7 +10778,20 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Lebrikizumab (Ebglyss, Europe)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Almirall target, via Investing.com",
+    "url": "https://www.investing.com/news/earnings/almirall-cosses-1-bln-in-sales-as-eczema-drug-ebglyss-triples-in-fy25-4517798",
+    "date": "2026-02-23",
+    "note": "Almirall holds European rights: peak above EUR 450m; FY2025 European sales EUR 110.8m",
+    "us": null,
+    "europe": 0.51
+   }
   },
   {
    "nct": "NCT07566195",
@@ -9707,7 +10822,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
-   "rev": null
+   "rev": {
+    "asset": "Tozorakimab",
+    "kind": "forecast",
+    "ww": 3.5,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Citi, via Yahoo Finance",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/astrazenecas-tozorakimab-treble-puts-5bn-100300485.html",
+    "date": "2026-04-21",
+    "note": "Unrisked; $3.0bn risk-adjusted",
+    "us": 2.42,
+    "europe": 0.77,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07570316",
@@ -9737,7 +10867,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 2,
-   "rev": null
+   "rev": {
+    "asset": "Efgartigimod (Vyvgart)",
+    "kind": "actual",
+    "ww": 4.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "argenx FY2025 results",
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245199/0/en/argenx-Reports-Full-Year-2025-Financial-Results-and-Provides-Fourth-Quarter-Business-Update.html",
+    "date": "2026-02-26",
+    "note": "",
+    "us": 2.86,
+    "europe": 0.91,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07596849",
@@ -9781,7 +10926,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 9,
-   "rev": null
+   "rev": {
+    "asset": "Efgartigimod (Vyvgart)",
+    "kind": "actual",
+    "ww": 4.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "argenx FY2025 results",
+    "url": "https://www.globenewswire.com/news-release/2026/02/26/3245199/0/en/argenx-Reports-Full-Year-2025-Financial-Results-and-Provides-Fourth-Quarter-Business-Update.html",
+    "date": "2026-02-26",
+    "note": "",
+    "us": 2.86,
+    "europe": 0.91,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07613528",
@@ -9902,7 +11062,22 @@
    ],
    "india": false,
    "ncountries": 2,
-   "rev": null
+   "rev": {
+    "asset": "Lunsekimig",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": 2.16,
+    "ww_high": 5.4,
+    "period": "peak",
+    "source": "Sanofi R&D day (EUR 2-5bn)",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-12-07-02-30-00-2792186",
+    "date": "2023-12-07",
+    "note": "",
+    "us": 2.61,
+    "europe": 0.83,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07829198",
@@ -10052,7 +11227,22 @@
    ],
    "india": false,
    "ncountries": 34,
-   "rev": null
+   "rev": {
+    "asset": "Guselkumab (Tremfya)",
+    "kind": "actual",
+    "ww": 5.0,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "J&J 2025 Annual Report",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/5045e250-3a2d-4e91-921e-58bcd00b3e40.pdf",
+    "date": "2026-02",
+    "note": "Company: more than $5bn",
+    "us": 3.45,
+    "europe": 1.1,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05878717",
@@ -10109,7 +11299,20 @@
    ],
    "india": false,
    "ncountries": 18,
-   "rev": null
+   "rev": {
+    "asset": "Belimumab (Benlysta)",
+    "kind": "actual",
+    "ww": 2.32,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "GSK FY2025 results",
+    "url": "https://www.gsk.com/media/g0lnid23/fy-2025-results-announcement.pdf",
+    "date": "2026-02-04",
+    "note": "GBP 1,773m at GSK 2025 average $1.31",
+    "us": 1.92,
+    "europe": 0.18
+   }
   },
   {
    "nct": "NCT05926505",
@@ -10184,7 +11387,20 @@
    ],
    "india": false,
    "ncountries": 5,
-   "rev": null
+   "rev": {
+    "asset": "Zilucoplan (Zilbrysq)",
+    "kind": "actual",
+    "ww": 0.24,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "UCB FY2025 report",
+    "url": "https://www.ucb.com/sites/default/files/2026-02/UCB-PR-2025-FY-Results-ENG.pdf",
+    "date": "2026-02-26",
+    "note": "EUR 217m at $1.128",
+    "us": 0.18,
+    "europe": 0.04
+   }
   },
   {
    "nct": "NCT07047040",
@@ -10221,7 +11437,7 @@
    "status": "Recruiting",
    "sponsor": "Aarhus University Hospital",
    "stype": "Non-industry",
-   "drugs": "fremanezumab; -",
+   "drugs": "fremanezumab",
    "cond": "Complex Regional Pain Syndrome",
    "n": 60,
    "start": "2023-12",
@@ -10612,7 +11828,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Golimumab: Solution for injection in pre-filled syringe · Device: UltraSafe™ Passive Needle Guard (PFS-U) — UltraSafe™ Passive Needle Guard (PFS-U) is assemble…",
+   "ev": "JNJ-78934804: Solution for injection in pre-filled syringe · Device: UltraSafe Plus™ Passive Needle Guard (PFS-U) — UltraSafe™ Plus Passive Needle Guard (PFS-U…",
    "eu": "2023-504741-32-00",
    "src": "EU",
    "us": true,
@@ -10700,7 +11916,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Golimumab: Solution for injection in pre-filled syringe · Device: UltraSafe™ Passive Needle Guard (PFS-U) — UltraSafe™ Passive Needle Guard (PFS-U) is assemble…",
+   "ev": "JNJ-78934804: Solution for injection in pre-filled syringe · Device: UltraSafe Plus™ Passive Needle Guard (PFS-U) — UltraSafe Plus™ Passive Needle Guard (PFS-U…",
    "eu": "2023-504743-13-00",
    "src": "EU",
    "us": true,
@@ -10871,7 +12087,7 @@
     "Implant with applicator"
    ],
    "basis": "E",
-   "ev": "Goserelin UAB Boston Biopharma LT 3.6 mg implant, in a pre-filled syringe: Implant in pre-filled syringe",
+   "ev": "Goserelin UAB Boston Biopharma LT 3.6 mg implant, in a pre-filled syringe (comparator): Implant in pre-filled syringe",
    "eu": "2022-501504-95-00",
    "src": "EU",
    "us": false,
@@ -11893,7 +13109,20 @@
    ],
    "india": false,
    "ncountries": 21,
-   "rev": null
+   "rev": {
+    "asset": "Isatuximab (Sarclisa)",
+    "kind": "actual",
+    "ww": 0.66,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Sanofi FY2025 results",
+    "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-01-29-06-30-00-3228191-en.pdf",
+    "date": "2026-01-29",
+    "note": "EUR 588m at $1.128",
+    "us": 0.28,
+    "europe": 0.2
+   }
   },
   {
    "nct": "NCT07018297",
@@ -11962,7 +13191,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 7,
-   "rev": null
+   "rev": {
+    "asset": "Frexalimab",
+    "kind": "forecast",
+    "ww": 5.4,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Sanofi R&D day (over EUR 5bn)",
+    "url": "https://www.biospace.com/sanofi-publishes-phase-ii-ms-data-in-nejm-eyes-5b-in-peak-annual-sales-for-pipeline-with-frexalimab",
+    "date": "2023-12-07",
+    "note": "Company says more than EUR 5bn",
+    "us": 3.73,
+    "europe": 1.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07617792",
@@ -12077,7 +13321,22 @@
    ],
    "india": false,
    "ncountries": 18,
-   "rev": null
+   "rev": {
+    "asset": "Frexalimab",
+    "kind": "forecast",
+    "ww": 5.4,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Sanofi R&D day (over EUR 5bn)",
+    "url": "https://www.biospace.com/sanofi-publishes-phase-ii-ms-data-in-nejm-eyes-5b-in-peak-annual-sales-for-pipeline-with-frexalimab",
+    "date": "2023-12-07",
+    "note": "Company says more than EUR 5bn",
+    "us": 3.73,
+    "europe": 1.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT05145400",
@@ -12145,6 +13404,37 @@
    "ukch": [],
    "india": false,
    "ncountries": 7,
+   "rev": null
+  },
+  {
+   "nct": "NCT05889221",
+   "title": "Multicenter Phase 2 Study of Subcutaneous Isatuximab Plus Bortezomib, Lenalidomide and Dexamethasone in the Treatment of Newly Diagnosed Tr…",
+   "phase": "2",
+   "status": "Active, not recruiting",
+   "sponsor": "Poitiers University Hospital",
+   "stype": "Non-industry",
+   "drugs": "isatuximab; bortezomib",
+   "cond": "Multiple Myeloma; Myeloma Multiple",
+   "n": 74,
+   "start": "2023-10",
+   "pcd": "2026-03",
+   "countries": [
+    "France"
+   ],
+   "cats": [
+    "On-body / wearable injector"
+   ],
+   "basis": "E",
+   "ev": "SARCLISA 20mg/mL concentrate for solution for infusion.: Solution for infusion · Device: — The On Body Delivery System (OBDS) also called Isatuximab subcutaneo…",
+   "eu": "2024-517099-39-00",
+   "src": "EU",
+   "us": false,
+   "eea": [
+    "FR"
+   ],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
    "rev": null
   },
   {
@@ -12260,37 +13550,6 @@
    "eu": "",
    "us": true,
    "eea": [],
-   "ukch": [],
-   "india": false,
-   "ncountries": 1,
-   "rev": null
-  },
-  {
-   "nct": "NCT05889221",
-   "title": "Multicenter Phase 2 Study of Subcutaneous Isatuximab Plus Bortezomib, Lenalidomide and Dexamethasone in the Treatment of Newly Diagnosed Tr…",
-   "phase": "NA",
-   "status": "Active, not recruiting",
-   "sponsor": "Poitiers University Hospital",
-   "stype": "Non-industry",
-   "drugs": "isatuximab; bortezomib",
-   "cond": "Multiple Myeloma; Myeloma Multiple",
-   "n": 74,
-   "start": "2023-10",
-   "pcd": "2026-03",
-   "countries": [
-    "France"
-   ],
-   "cats": [
-    "On-body / wearable injector"
-   ],
-   "basis": "E",
-   "ev": "SARCLISA 20mg/mL concentrate for solution for infusion.: Solution for infusion · Device: — The On Body Delivery System (OBDS) also called Isatuximab subcutaneo…",
-   "eu": "2024-517099-39-00",
-   "src": "EU",
-   "us": false,
-   "eea": [
-    "FR"
-   ],
    "ukch": [],
    "india": false,
    "ncountries": 1,
@@ -12644,57 +13903,6 @@
    "rev": null
   },
   {
-   "nct": "NCT05902169",
-   "title": "Sonocloud-9 in Association With Carboplatin Versus Standard-of-Care Chemotherapies (CCNU or TMZ) in Recurrent GBM",
-   "phase": "3",
-   "status": "Recruiting",
-   "sponsor": "CarThera",
-   "stype": "Industry",
-   "drugs": "Carboplatin; Lomustine; Temozolomide",
-   "cond": "Glioblastoma; Recurrent Glioblastoma",
-   "n": 560,
-   "start": "2024-01",
-   "pcd": "2028-01",
-   "countries": [
-    "United States",
-    "Austria",
-    "Belgium",
-    "Denmark",
-    "France",
-    "Germany",
-    "Italy",
-    "Netherlands",
-    "Spain",
-    "Sweden",
-    "Switzerland"
-   ],
-   "cats": [
-    "Implant with applicator"
-   ],
-   "basis": "E",
-   "ev": "Luminity 150 microlitres/ml gas and solvent for dispersion for injection/infusion: Dispersion for injection/infusion · Device: — SC9 generator | — SC9 implanta…",
-   "eu": "2023-505829-14-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "AT",
-    "BE",
-    "DE",
-    "DK",
-    "ES",
-    "FR",
-    "IT",
-    "NL",
-    "SE"
-   ],
-   "ukch": [
-    "CH"
-   ],
-   "india": false,
-   "ncountries": 11,
-   "rev": null
-  },
-  {
    "nct": "NCT06683742",
    "title": "A 2-year Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD) (LUCIA) Primary Efficacy Will be Determined at Week…",
    "phase": "3",
@@ -12738,7 +13946,22 @@
    ],
    "india": true,
    "ncountries": 10,
-   "rev": null
+   "rev": {
+    "asset": "EYP-1901 (Duravyu)",
+    "kind": "forecast",
+    "ww": 0.87,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "2035 sales",
+    "source": "Analyst estimate, via Benzinga",
+    "url": "https://benzinga.com/general/biotech/23/06/32861319/eyepoints-eyp-1901-tipped-to-transform-wet-amd-market-analyst-predicts-potential-870m-sales-by-20",
+    "date": "2023-06",
+    "note": "Older estimate; sales in 2035",
+    "us": 0.6,
+    "europe": 0.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07449923",
@@ -12775,7 +13998,22 @@
    "ukch": [],
    "india": false,
    "ncountries": 5,
-   "rev": null
+   "rev": {
+    "asset": "EYP-1901 (Duravyu)",
+    "kind": "forecast",
+    "ww": 0.87,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "2035 sales",
+    "source": "Analyst estimate, via Benzinga",
+    "url": "https://benzinga.com/general/biotech/23/06/32861319/eyepoints-eyp-1901-tipped-to-transform-wet-amd-market-analyst-predicts-potential-870m-sales-by-20",
+    "date": "2023-06",
+    "note": "Older estimate; sales in 2035",
+    "us": 0.6,
+    "europe": 0.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07449936",
@@ -12812,6 +14050,63 @@
    "ukch": [],
    "india": false,
    "ncountries": 5,
+   "rev": {
+    "asset": "EYP-1901 (Duravyu)",
+    "kind": "forecast",
+    "ww": 0.87,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "2035 sales",
+    "source": "Analyst estimate, via Benzinga",
+    "url": "https://benzinga.com/general/biotech/23/06/32861319/eyepoints-eyp-1901-tipped-to-transform-wet-amd-market-analyst-predicts-potential-870m-sales-by-20",
+    "date": "2023-06",
+    "note": "Older estimate; sales in 2035",
+    "us": 0.6,
+    "europe": 0.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
+  },
+  {
+   "nct": "NCT05791201",
+   "title": "A Safety, Tolerability, and Efficacy Study of VX-264 in Participants With Type 1 Diabetes",
+   "phase": "1/2",
+   "status": "Active, not recruiting",
+   "sponsor": "Vertex Pharmaceuticals Incorporated",
+   "stype": "Industry",
+   "drugs": "VX-264",
+   "cond": "Type 1 Diabetes",
+   "n": 7,
+   "start": "2023-05",
+   "pcd": "2027-03",
+   "countries": [
+    "United States",
+    "Canada",
+    "Germany",
+    "Italy",
+    "Netherlands",
+    "Switzerland",
+    "United Kingdom"
+   ],
+   "cats": [
+    "Implant with applicator"
+   ],
+   "basis": "E",
+   "ev": "VX-264 Implant: Implant · Device: — The human channel array device (HCAD) is an implantable medical device that contains and protects cells from immune rejecti…",
+   "eu": "2024-515583-32-00",
+   "src": "EU",
+   "us": true,
+   "eea": [
+    "DE",
+    "IT",
+    "NL"
+   ],
+   "ukch": [
+    "CH",
+    "UK"
+   ],
+   "india": false,
+   "ncountries": 7,
    "rev": null
   },
   {
@@ -12868,7 +14163,22 @@
    ],
    "india": false,
    "ncountries": 17,
-   "rev": null
+   "rev": {
+    "asset": "NXT007",
+    "kind": "forecast",
+    "ww": 0.76,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "2031 sales",
+    "source": "GlobalData consensus, via MedPath",
+    "url": "https://trial.medpath.com/news/roche-outlines-ambitious-pipeline-strategy-with-blockbuster-potential-assets-through-2031",
+    "date": "2026-01-14",
+    "note": "Consensus sales in 2031, not peak",
+    "us": 0.52,
+    "europe": 0.17,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07416604",
@@ -12930,7 +14240,22 @@
    ],
    "india": false,
    "ncountries": 22,
-   "rev": null
+   "rev": {
+    "asset": "NXT007",
+    "kind": "forecast",
+    "ww": 0.76,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "2031 sales",
+    "source": "GlobalData consensus, via MedPath",
+    "url": "https://trial.medpath.com/news/roche-outlines-ambitious-pipeline-strategy-with-blockbuster-potential-assets-through-2031",
+    "date": "2026-01-14",
+    "note": "Consensus sales in 2031, not peak",
+    "us": 0.52,
+    "europe": 0.17,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT07699471",
