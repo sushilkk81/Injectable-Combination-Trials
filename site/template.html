@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Injectable Combination Trials</title>
+<meta name="description" content="Ongoing Phase 2 and 3 parenteral trials that use a drug-device combination, from ClinicalTrials.gov and the EU Clinical Trials Information System, with published revenue figures.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: registry-style working sheet. Device-class summary first (clickable bars), then filters, then one dense table, then method notes. */
+:root{
+  --bg:#f4f7f8; --surface:#ffffff; --fg:#15222b; --muted:#5b6b76; --line:#d5dde2;
+  --accent:#0a6a70; --accent-soft:#dcefee; --p3:#7a3b12; --p3-soft:#f6e6d8; --p2:#2d4f8a; --p2-soft:#e2eaf7;
+  --eu:#2f4ea3; --eu-soft:#e4e9f8; --ok:#1f6b3a; --wait:#7a5a00; --row:#eef3f5;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#10181d; --surface:#17222a; --fg:#e4ecef; --muted:#93a4ae; --line:#2b3a44;
+  --accent:#5cc4c2; --accent-soft:#16383a; --p3:#f0b387; --p3-soft:#3c2616; --p2:#a9c3f2; --p2-soft:#1c2c47;
+  --eu:#a8b9f0; --eu-soft:#1d2645; --ok:#7fd29b; --wait:#e2c264; --row:#1c2931; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#10181d; --surface:#17222a; --fg:#e4ecef; --muted:#93a4ae; --line:#2b3a44;
+  --accent:#5cc4c2; --accent-soft:#16383a; --p3:#f0b387; --p3-soft:#3c2616; --p2:#a9c3f2; --p2-soft:#1c2c47;
+  --eu:#a8b9f0; --eu-soft:#1d2645; --ok:#7fd29b; --wait:#e2c264; --row:#1c2931; color-scheme:dark }
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;line-height:1.45}
+[hidden]{display:none!important}
+.wrap{max-width:1400px;margin:0 auto;padding-inline:20px;padding-block:28px 48px;display:flex;flex-direction:column;gap:24px}
+header{display:flex;flex-direction:column;gap:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.1;margin:0;text-wrap:balance}
+.lede{max-width:72ch;color:var(--muted);margin:0;font-size:15px}
+h2{font-family:var(--display);font-weight:600;font-size:18px;margin:0}
+.summary{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:820px){.summary{grid-template-columns:minmax(0,1fr)}}
+.bars{display:flex;flex-direction:column;gap:4px;margin-top:10px}
+.bar{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr) 38px;gap:10px;align-items:center;background:none;border:0;padding:5px 6px;border-radius:4px;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.bar:hover{background:var(--row)}
+.bar:focus-visible,.chip:focus-visible,input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar[aria-pressed="true"]{background:var(--accent-soft)}
+.bar .track{height:10px;background:var(--line);border-radius:2px;overflow:hidden}
+.bar .fill{display:block;height:100%;background:var(--accent)}
+.bar .n{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+@media (max-width:520px){.bar{grid-template-columns:minmax(0,130px) minmax(0,1fr) 32px}}
+.facts{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.fact{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.fact span:last-child{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label,.field .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+input[type=search],select{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:7px 9px;max-width:100%}
+input[type=search]{width:260px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:5px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.count{font-family:var(--mono);color:var(--muted)}
+.btn{font:inherit;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:4px;padding:6px 12px;cursor:pointer}
+.btn:hover{background:var(--accent-soft)}
+.tablebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px;margin-top:10px}
+table{border-collapse:collapse;width:100%;min-width:1320px;font-size:13px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+thead th{position:sticky;top:0;background:var(--surface);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;white-space:nowrap}
+thead button{all:unset;cursor:pointer} thead button:hover{color:var(--fg)}
+tbody tr:hover{background:var(--row)}
+td.id a{font-family:var(--mono);color:var(--accent);text-decoration:none;white-space:nowrap} td.id a:hover{text-decoration:underline}
+td.id .eulink{display:inline-block;margin-top:4px;font-size:11px;color:var(--eu);background:var(--eu-soft);padding:1px 6px;border-radius:3px}
+td.t{min-width:300px} .ttl{font-weight:500} .drug{color:var(--accent);font-weight:500}
+.ev{color:var(--muted);font-size:12px;margin-top:4px} .ev b{font-weight:500;color:var(--fg)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tag{display:inline-block;font-size:12px;border-radius:3px;padding:2px 7px;white-space:nowrap;margin:0 4px 4px 0;background:var(--accent-soft);color:var(--accent)}
+.ph{font-family:var(--mono);font-weight:500;padding:2px 7px;border-radius:3px;white-space:nowrap}
+.ph.p3{background:var(--p3-soft);color:var(--p3)} .ph.p2{background:var(--p2-soft);color:var(--p2)}
+.st{white-space:nowrap} .st::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;background:var(--muted)}
+.st.rec::before{background:var(--ok)} .st.nyr::before{background:var(--wait)}
+.small{font-size:11px;color:var(--muted)}
+.reg{display:flex;flex-direction:column;gap:3px;min-width:150px}
+.reg .r{display:flex;gap:6px;align-items:baseline}
+.reg .k{font-family:var(--mono);font-size:11px;width:34px;color:var(--muted)}
+.reg .v{font-size:12px}
+.rev{min-width:170px}
+.rev .ww{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500}
+.rev .split{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12px;color:var(--muted);margin-top:2px}
+.rev a{color:var(--accent);font-size:11px}
+.mod{font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:var(--wait)}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;border-top:1px solid var(--line);padding-top:20px}
+.notes li{color:var(--muted)} .notes ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.notes a{color:var(--accent)}
+footer{color:var(--muted);font-size:12px}
+footer a{color:var(--accent)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="stamp">ClinicalTrials.gov + EU CTIS</div>
+    <h1>Phase 2 and 3 injectable trials using a drug-device combination</h1>
+    <p class="lede">Ongoing interventional studies in which the registry record names the delivery device for a parenteral drug: autoinjector, pen, prefilled syringe, on-body injector and related systems. US and European site coverage is shown for every trial, and published revenue figures for industry Phase 3 assets.</p>
+  </header>
+
+  <section class="summary">
+    <div>
+      <h2>Trials by device class</h2>
+      <div class="bars" id="bars"></div>
+    </div>
+    <div>
+      <h2>At a glance</h2>
+      <div class="facts" id="facts"></div>
+    </div>
+  </section>
+
+  <section class="filters" aria-label="Filters">
+    <div class="field"><label for="q">Search drug, sponsor, indication, ID</label><input type="search" id="q" placeholder="e.g. semaglutide, Sanofi, myasthenia"></div>
+    <div class="field"><span class="lbl">Phase</span><div class="chips" id="phase"></div></div>
+    <div class="field"><label for="region">Sites in</label><select id="region">
+      <option value="">Any country</option><option value="us">United States</option><option value="europe">Europe (EU/EEA, UK, Switzerland)</option>
+      <option value="eea">EU/EEA</option><option value="ukch">UK or Switzerland</option><option value="usEurope">Both US and Europe</option><option value="india">India</option></select></div>
+    <div class="field"><label for="registry">Registry</label><select id="registry">
+      <option value="">All registries</option><option value="eu">Listed in EU register</option><option value="euonly">Found via EU register only</option><option value="ctonly">ClinicalTrials.gov only</option></select></div>
+    <div class="field"><label for="status">Status</label><select id="status"><option value="">All statuses</option></select></div>
+    <div class="field"><label for="spons">Sponsor type</label><select id="spons"><option value="">All sponsors</option><option>Industry</option><option>Non-industry</option></select></div>
+    <div class="field"><label for="dev">Device class</label><select id="dev"><option value="">All device classes</option></select></div>
+    <div class="field"><label for="revf">Revenue</label><select id="revf"><option value="">All trials</option><option value="any">With a revenue figure</option><option value="forecast">Peak-sales forecast</option><option value="actual">Marketed product sales</option></select></div>
+  </section>
+
+  <section>
+    <div class="tools">
+      <span class="count" id="count"></span>
+      <span><button class="btn" id="reset" type="button">Clear filters</button> <button class="btn" id="copy" type="button">Copy shown rows as CSV</button></span>
+    </div>
+    <div class="tablebox">
+      <table>
+        <thead><tr>
+          <th><button data-s="id">Registry ID</button></th><th><button data-s="drugs">Trial and drug</button></th><th><button data-s="cats">Device</button></th>
+          <th><button data-s="phase">Phase</button></th><th><button data-s="status">Status</button></th><th><button data-s="sponsor">Sponsor</button></th>
+          <th><button data-s="cond">Indication</button></th><th><button data-s="ncountries">Sites</button></th><th><button data-s="n">Enrolment</button></th>
+          <th><button data-s="pcd">Primary completion</button></th><th><button data-s="rev">Revenue, US$ bn</button></th>
+        </tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+      <div class="empty" id="empty" hidden>No trials match these filters. Clear a filter to see more.</div>
+    </div>
+  </section>
+
+  <section class="notes">
+    <div>
+      <h2>How the list is built</h2>
+      <ul>
+        <li>Sources: ClinicalTrials.gov (API v2) and the EU Clinical Trials Information System (CTIS). Both are re-queried every Monday.</li>
+        <li>Phase 2 or 3, including Phase 1/2 and 2/3 designs; recruiting, not yet recruiting, enrolling by invitation, or active and not recruiting.</li>
+        <li>At least one drug or biological given by a parenteral route, with the delivery device named in the record: title, interventions, arms or summary on ClinicalTrials.gov, or the product's pharmaceutical form and device fields in CTIS.</li>
+        <li>EU-registered trials are matched to their NCT number where one exists. Trials whose device appears only in the EU record are marked "Device listed in EU register".</li>
+        <li>Europe means EU/EEA countries plus the UK and Switzerland. Other European sites (for example Serbia or Georgia) count toward the total but not toward the Europe filter.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Revenue figures</h2>
+      <ul id="revnotes">
+        <li>Shown only for industry-sponsored Phase 3 and 2/3 trials, at asset level (all indications), in US$ billions.</li>
+        <li><b>Peak-sales forecast</b>: the published estimate of peak annual worldwide sales for an investigational asset, with its source and date.</li>
+        <li><b>Marketed product sales</b>: the company's latest reported annual sales for an approved product being studied in a new indication or presentation. Regional figures are the company's own where it reports them.</li>
+        <li id="sharenote"></li>
+        <li>Blank means no credible public figure was found. Forecasts are third-party estimates, not company guidance, unless stated.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Limits to keep in mind</h2>
+      <ul>
+        <li>Many sponsors do not state the presentation in the registry, so trials that use a device without saying so are missing. Treat the list as a floor.</li>
+        <li>Device class comes from the wording of the record, not from the product's regulatory designation.</li>
+        <li>Refreshes are automatic. New trials are classified by the same rules but are not reviewed by hand until the next manual review.</li>
+        <li>Titles, drug names and country lists are shortened. Open the registry link for the full record.</li>
+      </ul>
+    </div>
+  </section>
+  <footer id="foot"></footer>
+</div>
+<script>
+const PAYLOAD=/*DATA*/null;
+const D=PAYLOAD.rows, M=PAYLOAD.meta;
+const ORDER=['Autoinjector','Pen injector','Prefilled syringe','On-body / wearable injector','Needle-free injector','Microneedle','Infusion pump system','Electroporation injection device','Cartridge system','Implant with applicator','Drug-device combination (device type not stated)','Other delivery device','Dual-chamber system'];
+const BASIS={A:'Device named in interventions, arms or title',B:'Device named in study summary only',C:'Registered as a combination product',E:'Device listed in EU register product data'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=id=>document.getElementById(id);
+const rid=r=>r.nct||r.eu;
+const europe=r=>r.eea.length>0||r.ukch.length>0;
+const bn=v=>v==null?'':(v>=10?v.toFixed(0):v>=1?v.toFixed(1):v.toFixed(2));
+const state={q:'',phase:'',status:'',spons:'',dev:'',region:'',registry:'',revf:'',sort:'phase',dir:-1};
+$('stamp').textContent=`ClinicalTrials.gov + EU CTIS · updated ${M.updated_label}`;
+$('sharenote').innerHTML=`Where the company does not report regions, US and Europe are <b>modelled</b> as ${Math.round(M.us_share*100)}% and ${Math.round(M.europe_share*100)}% of the worldwide figure. ${esc(M.share_basis)}${M.share_source_url?` <a href="${esc(M.share_source_url)}" target="_blank" rel="noopener">${esc(M.share_source_title||'Source')}</a>`:''}`;
+$('foot').innerHTML=`Data refreshed ${esc(M.updated_label)}. Full dataset: <a href="data/trials.json">trials.json</a>. Not investment advice; figures are third-party estimates or company-reported sales.`;
+const phases=['3','2/3','2','1/2'];
+$('phase').innerHTML=['',...phases].map(p=>`<button type="button" class="chip" data-p="${p}" aria-pressed="${p===''}">${p?'Phase '+p:'All'}</button>`).join('');
+[...new Set(D.map(r=>r.status))].sort().forEach(s=>$('status').insertAdjacentHTML('beforeend',`<option>${esc(s)}</option>`));
+const used=ORDER.filter(c=>D.some(r=>r.cats.includes(c)));
+used.forEach(c=>$('dev').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
+const total={};used.forEach(c=>total[c]=D.filter(r=>r.cats.includes(c)).length);
+const max=Math.max(1,...Object.values(total));
+function drawBars(){$('bars').innerHTML=used.map(c=>`<button type="button" class="bar" data-c="${esc(c)}" aria-pressed="${state.dev===c}"><span>${esc(c)}</span><span class="track"><span class="fill" style="width:${(total[c]/max*100).toFixed(1)}%"></span></span><span class="n">${total[c]}</span></button>`).join('');}
+const facts=[['Trials listed',D.length],['Phase 3 or 2/3',D.filter(r=>r.phase==='3'||r.phase==='2/3').length],['With US sites',D.filter(r=>r.us).length],['With European sites',D.filter(europe).length],['Listed in EU register',D.filter(r=>r.eu).length],['With a revenue figure',D.filter(r=>r.rev).length]];
+$('facts').innerHTML=facts.map(f=>`<div class="fact"><span>${f[0]}</span><span>${f[1]}</span></div>`).join('');
+function match(r){
+  if(state.phase&&r.phase!==state.phase) return false;
+  if(state.status&&r.status!==state.status) return false;
+  if(state.spons&&r.stype!==state.spons) return false;
+  if(state.dev&&!r.cats.includes(state.dev)) return false;
+  if(state.region==='us'&&!r.us) return false;
+  if(state.region==='europe'&&!europe(r)) return false;
+  if(state.region==='eea'&&!r.eea.length) return false;
+  if(state.region==='ukch'&&!r.ukch.length) return false;
+  if(state.region==='usEurope'&&!(r.us&&europe(r))) return false;
+  if(state.region==='india'&&!r.india) return false;
+  if(state.registry==='eu'&&!r.eu) return false;
+  if(state.registry==='euonly'&&r.src!=='EU') return false;
+  if(state.registry==='ctonly'&&r.eu) return false;
+  if(state.revf==='any'&&!r.rev) return false;
+  if((state.revf==='forecast'||state.revf==='actual')&&!(r.rev&&r.rev.kind===state.revf)) return false;
+  if(state.q){const h=[rid(r),r.eu,r.title,r.sponsor,r.drugs,r.cats.join(' '),r.cond,(r.countries||[]).join(' '),r.rev?r.rev.asset:''].join(' ').toLowerCase();if(!state.q.toLowerCase().split(/\s+/).every(w=>h.includes(w))) return false;}
+  return true;
+}
+const PV={'3':4,'2/3':3,'2':2,'1/2':1};
+function key(r,k){if(k==='phase')return PV[r.phase]||0;if(k==='n'||k==='ncountries')return Number(r[k])||0;if(k==='rev')return r.rev?(r.rev.ww??((r.rev.ww_low+r.rev.ww_high)/2)??0):-1;if(k==='id')return rid(r);if(k==='cats')return r.cats.join(' ');return String(r[k]??'').toLowerCase();}
+function ww(e){if(e.ww!=null)return bn(e.ww);if(e.ww_low!=null)return bn(e.ww_low)+'–'+bn(e.ww_high);return '';}
+function revCell(r){
+  if(!r.rev) return (r.stype==='Industry'&&(r.phase==='3'||r.phase==='2/3'))?'<span class="small">No public figure found</span>':'<span class="small">Not estimated</span>';
+  const e=r.rev;const lab=e.kind==='actual'?`Sales ${esc(e.period||'')}`:'Peak forecast';
+  return `<div class="rev"><div><span class="ww">${ww(e)}</span> <span class="small">WW · ${lab}</span></div>
+<div class="split">US ${bn(e.us)}${e.us_modelled?'<span class="mod"> mod</span>':''} · EU ${bn(e.europe)}${e.eu_modelled?'<span class="mod"> mod</span>':''}</div>
+${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.source||'Source')}${e.date?' · '+esc(e.date):''}</a>`:`<span class="small">${esc(e.source||'')}</span>`}${e.note?`<div class="small">${esc(e.note)}</div>`:''}</div>`;
+}
+function sites(r){
+  const rows=[];
+  rows.push(`<div class="r"><span class="k">US</span><span class="v">${r.us?'Yes':'—'}</span></div>`);
+  rows.push(`<div class="r"><span class="k">EU</span><span class="v">${r.eea.length?esc(r.eea.join(' ')):'—'}</span></div>`);
+  if(r.ukch.length) rows.push(`<div class="r"><span class="k">UK/CH</span><span class="v">${esc(r.ukch.join(' '))}</span></div>`);
+  if(r.india) rows.push(`<div class="r"><span class="k">IN</span><span class="v">Yes</span></div>`);
+  rows.push(`<div class="small">${r.ncountries?r.ncountries+' countries':'Sites not listed yet'}</div>`);
+  return `<div class="reg">${rows.join('')}</div>`;
+}
+let shown=[];
+function draw(){
+  shown=D.filter(match).sort((a,b)=>{const x=key(a,state.sort),y=key(b,state.sort);return (x<y?-1:x>y?1:0)*state.dir||rid(a).localeCompare(rid(b));});
+  $('tb').innerHTML=shown.map(r=>{
+    const ctlink=r.nct?`<a href="https://clinicaltrials.gov/study/${r.nct}" target="_blank" rel="noopener">${r.nct}</a>`:'';
+    const eulink=r.eu?`<a class="eulink" href="https://euclinicaltrials.eu/ctis-public/view/${r.eu}" target="_blank" rel="noopener">EU ${esc(r.eu)}</a>`:'';
+    const ev2=r.ev_eu?`<div class="ev"><b>EU register:</b> ${esc(r.ev_eu)}</div>`:'';
+    return `<tr>
+<td class="id">${ctlink}${ctlink&&eulink?'<br>':''}${eulink}</td>
+<td class="t"><div class="drug">${esc(r.drugs||'Not stated')}</div><div class="ttl">${esc(r.title)}</div><div class="ev"><b>${r.basis==='E'?'EU register':'Registry wording'}:</b> ${r.basis==='E'?'':'“…'}${esc(r.ev)}${r.basis==='E'?'':'…”'}</div>${ev2}</td>
+<td>${r.cats.map(c=>`<span class="tag">${esc(c)}</span>`).join('')}<div class="small">${BASIS[r.basis]||''}</div></td>
+<td><span class="ph ${r.phase==='3'||r.phase==='2/3'?'p3':'p2'}">${esc(r.phase)}</span></td>
+<td><span class="st ${r.status==='Recruiting'?'rec':r.status==='Not yet recruiting'?'nyr':''}">${esc(r.status)}</span></td>
+<td>${esc(r.sponsor)}<div class="small">${esc(r.stype)}</div></td>
+<td>${esc(r.cond)}</td>
+<td>${sites(r)}</td>
+<td class="num">${r.n?Number(r.n).toLocaleString('en-US'):''}</td>
+<td class="num">${esc(r.pcd)}</td>
+<td>${revCell(r)}</td></tr>`;}).join('');
+  $('empty').hidden=shown.length>0;
+  $('count').textContent=`${shown.length} of ${D.length} trials shown`;
+  document.querySelectorAll('#phase .chip').forEach(b=>b.setAttribute('aria-pressed',b.dataset.p===state.phase));
+  $('dev').value=state.dev; drawBars();
+}
+$('q').addEventListener('input',e=>{state.q=e.target.value.trim();draw();});
+['status','spons','dev','region','registry','revf'].forEach(id=>$(id).addEventListener('change',e=>{state[id]=e.target.value;draw();}));
+$('phase').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;state.phase=b.dataset.p;draw();});
+$('bars').addEventListener('click',e=>{const b=e.target.closest('.bar');if(!b)return;state.dev=state.dev===b.dataset.c?'':b.dataset.c;draw();});
+document.querySelector('thead').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const s=b.dataset.s;if(state.sort===s)state.dir*=-1;else{state.sort=s;state.dir=(s==='rev'||s==='n'||s==='ncountries'||s==='phase')?-1:1;}draw();});
+$('reset').addEventListener('click',()=>{Object.assign(state,{q:'',phase:'',status:'',spons:'',dev:'',region:'',registry:'',revf:''});['q','status','spons','region','registry','revf'].forEach(id=>$(id).value='');draw();});
+$('copy').addEventListener('click',async()=>{
+  const H=['NCT ID','EU CT number','Title','Phase','Status','Sponsor','Sponsor type','Drug(s)','Device class','Basis','Evidence','Indication','Enrolment','Start','Primary completion','US sites','EU/EEA sites','UK/CH sites','India sites','Countries (n)','Revenue type','Asset','WW US$ bn','US US$ bn','US modelled','Europe US$ bn','Europe modelled','Revenue source','Source URL','Source date'];
+  const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+  const lines=shown.map(r=>{const e=r.rev||{};return [r.nct,r.eu,r.title,r.phase,r.status,r.sponsor,r.stype,r.drugs,r.cats.join(' + '),BASIS[r.basis],r.ev,r.cond,r.n,r.start,r.pcd,r.us?'Yes':'No',r.eea.join(' '),r.ukch.join(' '),r.india?'Yes':'No',r.ncountries,e.kind||'',e.asset||'',r.rev?ww(e):'',e.us??'',e.us_modelled?'Yes':'',e.europe??'',e.eu_modelled?'Yes':'',e.source||'',e.url||'',e.date||''].map(q).join(',');});
+  const csv=[H.map(q).join(',')].concat(lines).join('\n');
+  const b=$('copy');
+  try{await navigator.clipboard.writeText(csv);b.textContent='Copied '+shown.length+' rows';}catch(err){b.textContent='Copy blocked in this view';}
+  setTimeout(()=>b.textContent='Copy shown rows as CSV',2500);
+});
+draw();
+</script>
+</body>
+</html>

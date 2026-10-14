@@ -1,0 +1,27 @@
+{
+  "_note": "Manual review decisions applied on every refresh. 'exclude' removes a registry record that matched the search but is not a parenteral drug-device combination; 'category' forces the device class shown.",
+  "exclude": {
+    "NCT07284511": "Insulin pump is background therapy, not the trial drug's device",
+    "NCT06387199": "Insulin pump is background therapy",
+    "NCT01909245": "Mentions insulin pump only as standard care",
+    "NCT06600412": "Wearable is a blood-pressure monitor",
+    "NCT06313801": "PIPAC aerosol injector, not a drug-device presentation",
+    "NCT04898504": "Implanted hepatic arterial pump (device-led procedure)",
+    "NCT06313203": "Implanted hepatic arterial pump (device-led procedure)",
+    "NCT06633016": "Oral solution supplied in syringes",
+    "NCT06869187": "Oral solution supplied in syringes",
+    "NCT05882903": "Topical nasal cream applied by syringe",
+    "NCT04744402": "Autologous chondrocyte implant",
+    "NCT06999993": "Surgical hyaluronate gel",
+    "NCT07281508": "Prefilled syringe is the hyaluronate vehicle, not the drug",
+    "NCT07250594": "Intranasal product",
+    "NCT05548556": "Wearable is a movement sensor"
+  },
+  "category": {
+    "NCT07454915": "Electroporation injection device",
+    "NCT07809997": "Electroporation injection device",
+    "NCT07018297": "On-body / wearable injector",
+    "NCT07627971": "Other delivery device",
+    "NCT05821959": "Other delivery device"
+  }
+}
