@@ -1,3 +1,28 @@
-2026-10-14T11:14:01.943096+00:00
-Trials added from the EU register: 0
-Rows published: 212
+2026-10-14T11:22:31.485840+00:00
+CT.gov query intr: 4477 studies
+CT.gov query titles: 1058 studies
+CT.gov query term: 4949 studies
+CT.gov query combo: 513 studies
+CT.gov query b_intr: 959 studies
+CT.gov query b_titles: 142 studies
+CT.gov query b_term: 1539 studies
+CT.gov unique studies screened: 6306
+CT.gov studies naming a device for a parenteral drug: 227
+EU CTIS search 'autoinjector': 12 trials
+EU CTIS search 'auto-injector': 6 trials
+EU CTIS search 'pre-filled pen': 183 trials
+EU CTIS search 'prefilled pen': 6 trials
+EU CTIS search 'pre-filled syringe': 393 trials
+EU CTIS search 'prefilled syringe': 33 trials
+EU CTIS search 'pen injector': 18 trials
+EU CTIS search 'on-body': 368 trials
+EU CTIS search 'injection device': 23 trials
+EU CTIS search 'cartridge': 12 trials
+EU CTIS search 'needle-free': 0 trials
+EU CTIS search 'wearable injector': 1 trials
+EU CTIS search 'dual chamber': 1 trials
+EU CTIS search 'implant': 42 trials
+EU CTIS ongoing Phase 2/3 candidates: 289
+EU CTIS trials listing a device for a parenteral product: 106
+Trials added from the EU register: 84
+Rows published: 296
