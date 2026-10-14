@@ -1,8 +1,8 @@
 {
-  "_note": "Assumptions used to split a worldwide revenue figure into US and Europe when the company does not report regions. Edit the shares here and the next refresh applies them.",
-  "us_share": 0.60,
-  "europe_share": 0.22,
-  "share_basis": "Assumed split for a newly launched specialty injectable: US 60%, Europe 22%, rest of world 18%. Based on the US and Europe shares of launch-year sales for new medicines reported by IQVIA (see source on page).",
-  "share_source_title": "",
-  "share_source_url": ""
+ "_note": "Assumptions used to split a worldwide revenue figure into US and Europe when the company does not report regions. Edit the shares here and the next refresh applies them.",
+ "us_share": 0.69,
+ "europe_share": 0.22,
+ "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
+ "share_source_title": "",
+ "share_source_url": ""
 }

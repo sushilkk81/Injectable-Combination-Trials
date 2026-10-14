@@ -264,37 +264,50 @@ def classify_ctis(det):
         for p in g.get("products", []) or []:
             di = p.get("productDictionaryInfo", {}) or {}
             prods.append({
+                "role": (g.get("productRoleName") or "").lower(),
                 "name": p.get("productName") or di.get("prodName") or "",
                 "subst": p.get("jsonActiveSubstanceNames") or di.get("activeSubstanceName") or "",
                 "form": p.get("pharmaceuticalFormDisplay") or di.get("pharmForm") or "",
                 "routes": ",".join(p.get("routes") or []),
                 "dev": " | ".join(((d.get("tradeName") or "") + " — " + (d.get("description") or "")) for d in (p.get("devices") or [])),
             })
-    par = [p for p in prods if EU_PAR.search(p["routes"]) or re.search(r"inject|infusion", p["form"], re.I)]
+    par = [p for p in prods if EU_PAR.search(p["routes"]) or re.search(r"inject|infusion|implant", p["form"], re.I)]
     real = [p for p in par if not re.search("placebo", p["name"] + " " + p["subst"], re.I)]
-    cats, devp = [], None
-    for p in par:
-        if re.search("placebo", p["name"] + p["subst"], re.I) and real:
-            continue
-        t = p["form"] + " " + p["dev"]
-        for n, rx in EU_CAT:
-            if rx.search(t) and n not in cats:
-                if n == "Prefilled syringe" and not re.search(r"pre-?filled|PFS|safety", t, re.I):
-                    continue
-                if n == "Pen injector" and re.search("pre-?filled syringe", p["form"], re.I) and not re.search("pen", p["dev"], re.I):
-                    continue
-                cats.append(n)
-                devp = devp or p
+    test = [p for p in real if p["role"] == "test"]
+    if not test:  # the investigational product itself must be parenteral
+        return None
+
+    def cats_for(group):
+        cats, devp = [], None
+        for p in group:
+            t = p["form"] + " " + p["dev"]
+            for n, rx in EU_CAT:
+                if rx.search(t) and n not in cats:
+                    if n == "Prefilled syringe" and not re.search(r"pre-?filled|PFS|safety", t, re.I):
+                        continue
+                    if n == "Pen injector" and re.search("pre-?filled syringe", p["form"], re.I) and not re.search("pen", p["dev"], re.I):
+                        continue
+                    if n == "Implant with applicator" and not re.search("implant", p["form"], re.I):
+                        continue
+                    cats.append(n)
+                    devp = devp or p
+        return cats, devp
+
+    cats, devp = cats_for(test)  # device on the investigational product
+    via = ""
+    if not cats:  # otherwise accept a device on the comparator
+        cats, devp = cats_for([p for p in real if p["role"] == "comparator"])
+        via = " (comparator)"
     if not cats:
         return None
     if cats == ["Implant with applicator"] and not devp["dev"]:
         return None
     drugs = []
-    for p in real:
+    for p in test:
         d = (p["subst"] or p["name"]).lower()
         if d not in drugs:
             drugs.append(d)
-    ev = devp["name"] + ": " + devp["form"].capitalize() + (" · Device: " + devp["dev"] if devp["dev"] else "")
+    ev = devp["name"] + via + ": " + devp["form"].capitalize() + (" · Device: " + devp["dev"] if devp["dev"] else "")
     return {"cats": cats, "ev": clip(ev, 160), "drugs": clip("; ".join(drugs), 110)}
 
 
@@ -382,32 +395,38 @@ def regions(countries):
     return {"us": "United States" in countries, "eea": eu, "ukch": ukch, "india": "India" in countries}
 
 
-def attach_revenue(rows, rev, cfg):
+def attach_revenue(rows, rev, cfg, skip=()):
+    """Attach the first matching asset entry; model missing US/Europe figures from the configured shares."""
     us_s, eu_s = cfg["us_share"], cfg["europe_share"]
     for r in rows:
         r["rev"] = None
-        if r["stype"] != "Industry" or r["phase"] not in ("3", "2/3"):
+        if r["stype"] != "Industry" or r["phase"] not in ("3", "2/3") or (r.get("nct") or r.get("eu")) in skip:
             continue
         hay = (r.get("drugs", "") + " " + r.get("title", "")).lower()
         for a in rev:
-            if re.search(a["match"], hay, re.I):
-                e = {k: a.get(k) for k in ("asset", "kind", "ww", "ww_low", "ww_high", "period", "source", "url", "date", "note", "us", "europe")}
-                mid = a.get("ww") if a.get("ww") is not None else (
-                    (a["ww_low"] + a["ww_high"]) / 2 if a.get("ww_low") is not None and a.get("ww_high") is not None else None)
-                if mid is not None:
-                    if e["us"] is None:
-                        e["us"], e["us_modelled"] = round(mid * us_s, 2), True
+            if not re.search(a["match"], hay, re.I):
+                continue
+            e = {k: a.get(k) for k in ("asset", "kind", "ww", "ww_low", "ww_high", "period", "source", "url", "date", "note", "us", "europe")}
+            mid = e["ww"] if e["ww"] is not None else (
+                (e["ww_low"] + e["ww_high"]) / 2 if e["ww_low"] is not None and e["ww_high"] is not None else None)
+            if mid is not None:
+                if e["us"] is None:
+                    e["us"], e["us_modelled"] = round(mid * us_s, 2), True
                     if e["europe"] is None:
                         e["europe"], e["eu_modelled"] = round(mid * eu_s, 2), True
-                r["rev"] = e
-                break
+                elif e["europe"] is None:
+                    # US reported: split the remainder between Europe and the rest of the world in the configured ratio
+                    e["europe"], e["eu_modelled"] = round(max(mid - e["us"], 0) * eu_s / (1 - us_s), 2), True
+            r["rev"] = e
+            break
 
 
 def main():
     cur = json.loads((DATA / "curation.json").read_text())
     cfg = json.loads((DATA / "config.json").read_text())
     revp = DATA / "revenue.json"
-    rev = json.loads(revp.read_text())["assets"] if revp.exists() else []
+    revdoc = json.loads(revp.read_text()) if revp.exists() else {}
+    rev, skip = revdoc.get("assets", []), set(revdoc.get("skip_trials", {}))
 
     ctg = run_ctg()
     try:
@@ -449,7 +468,7 @@ def main():
             if raw not in ST_MAP:
                 f["status"] = e["status"]
             f.update({"cats": e["cats"], "basis": "E", "ev": e["ev"], "eu": e["eu"], "src": "EU"})
-            if not f["phase"]:
+            if f["phase"] not in ("1/2", "2", "2/3", "3"):
                 f["phase"] = e["phase"]
             if not f["drugs"]:
                 f["drugs"] = e["drugs"]
@@ -474,7 +493,7 @@ def main():
         r["ncountries"] = len(r.get("countries", []))
         r.pop("orgId", None)
         out.append(r)
-    attach_revenue(out, rev, cfg)
+    attach_revenue(out, rev, cfg, skip)
 
     order = ["Autoinjector", "Pen injector", "Prefilled syringe", "On-body / wearable injector", "Needle-free injector", "Microneedle",
              "Infusion pump system", "Electroporation injection device", "Cartridge system", "Implant with applicator",

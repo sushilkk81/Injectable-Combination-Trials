@@ -81,7 +81,7 @@ td.t{min-width:300px} .ttl{font-weight:500} .drug{color:var(--accent);font-weigh
 .small{font-size:11px;color:var(--muted)}
 .reg{display:flex;flex-direction:column;gap:3px;min-width:150px}
 .reg .r{display:flex;gap:6px;align-items:baseline}
-.reg .k{font-family:var(--mono);font-size:11px;width:34px;color:var(--muted)}
+.reg .k{font-family:var(--mono);font-size:11px;width:48px;flex:none;color:var(--muted)}
 .reg .v{font-size:12px}
 .rev{min-width:170px}
 .rev .ww{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500}
@@ -190,6 +190,7 @@ const BASIS={A:'Device named in interventions, arms or title',B:'Device named in
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const $=id=>document.getElementById(id);
 const rid=r=>r.nct||r.eu;
+const hasRev=r=>!!(r.rev&&r.rev.kind!=='none');
 const europe=r=>r.eea.length>0||r.ukch.length>0;
 const bn=v=>v==null?'':(v>=10?v.toFixed(0):v>=1?v.toFixed(1):v.toFixed(2));
 const state={q:'',phase:'',status:'',spons:'',dev:'',region:'',registry:'',revf:'',sort:'phase',dir:-1};
@@ -204,7 +205,7 @@ used.forEach(c=>$('dev').insertAdjacentHTML('beforeend',`<option>${esc(c)}</opti
 const total={};used.forEach(c=>total[c]=D.filter(r=>r.cats.includes(c)).length);
 const max=Math.max(1,...Object.values(total));
 function drawBars(){$('bars').innerHTML=used.map(c=>`<button type="button" class="bar" data-c="${esc(c)}" aria-pressed="${state.dev===c}"><span>${esc(c)}</span><span class="track"><span class="fill" style="width:${(total[c]/max*100).toFixed(1)}%"></span></span><span class="n">${total[c]}</span></button>`).join('');}
-const facts=[['Trials listed',D.length],['Phase 3 or 2/3',D.filter(r=>r.phase==='3'||r.phase==='2/3').length],['With US sites',D.filter(r=>r.us).length],['With European sites',D.filter(europe).length],['Listed in EU register',D.filter(r=>r.eu).length],['With a revenue figure',D.filter(r=>r.rev).length]];
+const facts=[['Trials listed',D.length],['Phase 3 or 2/3',D.filter(r=>r.phase==='3'||r.phase==='2/3').length],['With US sites',D.filter(r=>r.us).length],['With European sites',D.filter(europe).length],['Listed in EU register',D.filter(r=>r.eu).length],['With a revenue figure',D.filter(hasRev).length]];
 $('facts').innerHTML=facts.map(f=>`<div class="fact"><span>${f[0]}</span><span>${f[1]}</span></div>`).join('');
 function match(r){
   if(state.phase&&r.phase!==state.phase) return false;
@@ -220,25 +221,29 @@ function match(r){
   if(state.registry==='eu'&&!r.eu) return false;
   if(state.registry==='euonly'&&r.src!=='EU') return false;
   if(state.registry==='ctonly'&&r.eu) return false;
-  if(state.revf==='any'&&!r.rev) return false;
+  if(state.revf==='any'&&!hasRev(r)) return false;
   if((state.revf==='forecast'||state.revf==='actual')&&!(r.rev&&r.rev.kind===state.revf)) return false;
   if(state.q){const h=[rid(r),r.eu,r.title,r.sponsor,r.drugs,r.cats.join(' '),r.cond,(r.countries||[]).join(' '),r.rev?r.rev.asset:''].join(' ').toLowerCase();if(!state.q.toLowerCase().split(/\s+/).every(w=>h.includes(w))) return false;}
   return true;
 }
 const PV={'3':4,'2/3':3,'2':2,'1/2':1};
-function key(r,k){if(k==='phase')return PV[r.phase]||0;if(k==='n'||k==='ncountries')return Number(r[k])||0;if(k==='rev')return r.rev?(r.rev.ww??((r.rev.ww_low+r.rev.ww_high)/2)??0):-1;if(k==='id')return rid(r);if(k==='cats')return r.cats.join(' ');return String(r[k]??'').toLowerCase();}
+function key(r,k){if(k==='phase')return PV[r.phase]||0;if(k==='n'||k==='ncountries')return Number(r[k])||0;if(k==='rev'){if(!hasRev(r))return -1;const e=r.rev;return e.ww??(e.ww_low!=null?(e.ww_low+e.ww_high)/2:(e.us??e.europe??0));}if(k==='id')return rid(r);if(k==='cats')return r.cats.join(' ');return String(r[k]??'').toLowerCase();}
 function ww(e){if(e.ww!=null)return bn(e.ww);if(e.ww_low!=null)return bn(e.ww_low)+'–'+bn(e.ww_high);return '';}
 function revCell(r){
-  if(!r.rev) return (r.stype==='Industry'&&(r.phase==='3'||r.phase==='2/3'))?'<span class="small">No public figure found</span>':'<span class="small">Not estimated</span>';
-  const e=r.rev;const lab=e.kind==='actual'?`Sales ${esc(e.period||'')}`:'Peak forecast';
-  return `<div class="rev"><div><span class="ww">${ww(e)}</span> <span class="small">WW · ${lab}</span></div>
-<div class="split">US ${bn(e.us)}${e.us_modelled?'<span class="mod"> mod</span>':''} · EU ${bn(e.europe)}${e.eu_modelled?'<span class="mod"> mod</span>':''}</div>
+  const e=r.rev;
+  if(!hasRev(r)){const elig=r.stype==='Industry'&&(r.phase==='3'||r.phase==='2/3');return `<span class="small">${elig?'No public figure found':'Not estimated'}</span>${e&&e.note?`<div class="small">${esc(e.note)}</div>`:''}`;}
+  const lab=e.kind==='actual'?`Sales ${esc(e.period||'')}`:(e.period==='peak'?'Peak forecast':`Forecast · ${esc(e.period||'')}`);
+  const w=ww(e)||'—';
+  const part=(v,m)=>v==null?'—':bn(v)+(m?'<span class="mod"> mod</span>':'');
+  return `<div class="rev"><div><span class="ww">${w}</span> <span class="small">WW · ${lab}</span></div>
+<div class="split">US ${part(e.us,e.us_modelled)} · EU ${part(e.europe,e.eu_modelled)}</div>
+<div class="small">${esc(e.asset||'')}</div>
 ${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.source||'Source')}${e.date?' · '+esc(e.date):''}</a>`:`<span class="small">${esc(e.source||'')}</span>`}${e.note?`<div class="small">${esc(e.note)}</div>`:''}</div>`;
 }
 function sites(r){
   const rows=[];
   rows.push(`<div class="r"><span class="k">US</span><span class="v">${r.us?'Yes':'—'}</span></div>`);
-  rows.push(`<div class="r"><span class="k">EU</span><span class="v">${r.eea.length?esc(r.eea.join(' ')):'—'}</span></div>`);
+  rows.push(`<div class="r"><span class="k">EU/EEA</span><span class="v">${r.eea.length?esc(r.eea.join(' ')):'—'}</span></div>`);
   if(r.ukch.length) rows.push(`<div class="r"><span class="k">UK/CH</span><span class="v">${esc(r.ukch.join(' '))}</span></div>`);
   if(r.india) rows.push(`<div class="r"><span class="k">IN</span><span class="v">Yes</span></div>`);
   rows.push(`<div class="small">${r.ncountries?r.ncountries+' countries':'Sites not listed yet'}</div>`);
@@ -277,7 +282,7 @@ $('reset').addEventListener('click',()=>{Object.assign(state,{q:'',phase:'',stat
 $('copy').addEventListener('click',async()=>{
   const H=['NCT ID','EU CT number','Title','Phase','Status','Sponsor','Sponsor type','Drug(s)','Device class','Basis','Evidence','Indication','Enrolment','Start','Primary completion','US sites','EU/EEA sites','UK/CH sites','India sites','Countries (n)','Revenue type','Asset','WW US$ bn','US US$ bn','US modelled','Europe US$ bn','Europe modelled','Revenue source','Source URL','Source date'];
   const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
-  const lines=shown.map(r=>{const e=r.rev||{};return [r.nct,r.eu,r.title,r.phase,r.status,r.sponsor,r.stype,r.drugs,r.cats.join(' + '),BASIS[r.basis],r.ev,r.cond,r.n,r.start,r.pcd,r.us?'Yes':'No',r.eea.join(' '),r.ukch.join(' '),r.india?'Yes':'No',r.ncountries,e.kind||'',e.asset||'',r.rev?ww(e):'',e.us??'',e.us_modelled?'Yes':'',e.europe??'',e.eu_modelled?'Yes':'',e.source||'',e.url||'',e.date||''].map(q).join(',');});
+  const lines=shown.map(r=>{const e=hasRev(r)?r.rev:{};return [r.nct,r.eu,r.title,r.phase,r.status,r.sponsor,r.stype,r.drugs,r.cats.join(' + '),BASIS[r.basis],r.ev,r.cond,r.n,r.start,r.pcd,r.us?'Yes':'No',r.eea.join(' '),r.ukch.join(' '),r.india?'Yes':'No',r.ncountries,e.kind||'',e.asset||'',r.rev?ww(e):'',e.us??'',e.us_modelled?'Yes':'',e.europe??'',e.eu_modelled?'Yes':'',e.source||'',e.url||'',e.date||''].map(q).join(',');});
   const csv=[H.map(q).join(',')].concat(lines).join('\n');
   const b=$('copy');
   try{await navigator.clipboard.writeText(csv);b.textContent='Copied '+shown.length+' rows';}catch(err){b.textContent='Copy blocked in this view';}
