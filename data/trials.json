@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-10-14",
-  "updated_label": "14 Oct 2026",
-  "count": 294,
+  "updated": "2026-10-19",
+  "updated_label": "19 Oct 2026",
+  "count": 291,
   "us_share": 0.69,
   "europe_share": 0.22,
   "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
@@ -993,6 +993,7 @@
     "United States",
     "Argentina",
     "Australia",
+    "Austria",
     "Belgium",
     "Brazil",
     "Canada",
@@ -1000,19 +1001,25 @@
     "Czechia",
     "France",
     "Germany",
+    "Greece",
+    "Hungary",
     "India",
     "Israel",
+    "Italy",
     "Japan",
     "Malaysia",
     "Netherlands",
     "Norway",
     "Poland",
     "Portugal",
+    "Romania",
     "Slovakia",
     "South Korea",
     "Spain",
+    "Switzerland",
     "Taiwan",
-    "Turkey (Türkiye)"
+    "Turkey (Türkiye)",
+    "United Kingdom"
    ],
    "cats": [
     "Autoinjector",
@@ -1024,20 +1031,28 @@
    "src": "EU",
    "us": true,
    "eea": [
+    "AT",
     "BE",
     "CZ",
     "DE",
     "ES",
     "FR",
+    "GR",
+    "HU",
+    "IT",
     "NL",
     "NO",
     "PL",
     "PT",
+    "RO",
     "SK"
    ],
-   "ukch": [],
+   "ukch": [
+    "CH",
+    "UK"
+   ],
    "india": true,
-   "ncountries": 23,
+   "ncountries": 30,
    "rev": {
     "asset": "JNJ-4804 (guselkumab + golimumab)",
     "kind": "none",
@@ -5431,54 +5446,6 @@
    "rev": null
   },
   {
-   "nct": "NCT06717698",
-   "title": "A Research Study Comparing How Well Different Doses of the Medicine NNC0519-0130 Can Reduce Kidney Damage in People Living With Chronic Kid…",
-   "phase": "2",
-   "status": "Recruiting",
-   "sponsor": "Novo Nordisk A/S",
-   "stype": "Industry",
-   "drugs": "NNC0519-0130; Semaglutide",
-   "cond": "Chronic Kidney Disease",
-   "n": 465,
-   "start": "2024-12",
-   "pcd": "2026-09",
-   "countries": [
-    "United States",
-    "Argentina",
-    "Australia",
-    "Brazil",
-    "Bulgaria",
-    "Czechia",
-    "India",
-    "Italy",
-    "Japan",
-    "Malaysia",
-    "Poland",
-    "South Korea",
-    "Spain",
-    "Turkey (Türkiye)"
-   ],
-   "cats": [
-    "Pen injector"
-   ],
-   "basis": "E",
-   "ev": "Ozempic 0.5 mg solution for injection in pre-filled pen (comparator): Solution for injection · Device: NA — The PDS290 pen-injector used in clinical trials is …",
-   "eu": "2024-510846-15-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "BG",
-    "CZ",
-    "ES",
-    "IT",
-    "PL"
-   ],
-   "ukch": [],
-   "india": true,
-   "ncountries": 14,
-   "rev": null
-  },
-  {
    "nct": "NCT06820281",
    "title": "Acute Metabolic Effects of Tirzepatide in Type 1 Diabetes",
    "phase": "2",
@@ -5718,60 +5685,6 @@
     "europe": 0.15,
     "us_modelled": true,
     "eu_modelled": true
-   }
-  },
-  {
-   "title": "Efficacy and Safety of Lebrikizumab in Adults and Adolescents with Face and Neck Atopic Dermatitis",
-   "phase": "3",
-   "status": "Not yet recruiting",
-   "sponsor": "Almirall S.A.",
-   "stype": "Industry",
-   "drugs": "lebrikizumab",
-   "cond": "Face and Neck Atopic Dermatitis",
-   "n": 273,
-   "start": "2026-10",
-   "pcd": "2028-05",
-   "countries": [
-    "Poland",
-    "Germany",
-    "Portugal",
-    "France",
-    "Spain",
-    "Denmark"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "ev": "Ebglyss 250 mg solution for injection in pre-filled syringe: Solution for injection · Device: N/A — Lebrikizumab 250 mg will be provided as a solution for inje…",
-   "eu": "2025-525133-31-00",
-   "nct": "",
-   "basis": "E",
-   "src": "EU",
-   "us": false,
-   "eea": [
-    "DE",
-    "DK",
-    "ES",
-    "FR",
-    "PL",
-    "PT"
-   ],
-   "ukch": [],
-   "india": false,
-   "ncountries": 6,
-   "rev": {
-    "asset": "Lebrikizumab (Ebglyss, Europe)",
-    "kind": "forecast",
-    "ww": null,
-    "ww_low": null,
-    "ww_high": null,
-    "period": "peak",
-    "source": "Almirall target, via Investing.com",
-    "url": "https://www.investing.com/news/earnings/almirall-cosses-1-bln-in-sales-as-eczema-drug-ebglyss-triples-in-fy25-4517798",
-    "date": "2026-02-23",
-    "note": "Almirall holds European rights: peak above EUR 450m; FY2025 European sales EUR 110.8m",
-    "us": null,
-    "europe": 0.51
    }
   },
   {
@@ -7700,63 +7613,6 @@
    "india": false,
    "ncountries": 1,
    "rev": null
-  },
-  {
-   "nct": "NCT05692180",
-   "title": "A Multicentre, Randomised, Double-blind, Parallel Group, Placebo-controlled, Time-to-first Asthma Exacerbation Phase III Efficacy and Safet…",
-   "phase": "3",
-   "status": "Active, not recruiting",
-   "sponsor": "AstraZeneca",
-   "stype": "Industry",
-   "drugs": "Benralizumab",
-   "cond": "Asthma",
-   "n": 94,
-   "start": "2023-04",
-   "pcd": "2026-12",
-   "countries": [
-    "United States",
-    "Argentina",
-    "France",
-    "Italy",
-    "Poland",
-    "South Korea",
-    "Spain",
-    "Taiwan",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": "Benralizumab: Solution for injection · Device: NA — The APFS uses a prefilled syringe sub-assembly (PFS-SA) as the primary container closure system for the Dru…",
-   "eu": "2022-501344-14-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "ES",
-    "FR",
-    "IT",
-    "PL"
-   ],
-   "ukch": [
-    "UK"
-   ],
-   "india": false,
-   "ncountries": 9,
-   "rev": {
-    "asset": "Benralizumab (Fasenra)",
-    "kind": "actual",
-    "ww": 1.98,
-    "ww_low": null,
-    "ww_high": null,
-    "period": "FY2025",
-    "source": "AstraZeneca FY2025 results",
-    "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
-    "date": "2026-02-10",
-    "note": "",
-    "us": 1.2,
-    "europe": 0.48
-   }
   },
   {
    "nct": "NCT05739383",
@@ -10897,9 +10753,12 @@
    "start": "2026-06",
    "pcd": "2028-06",
    "countries": [
+    "Belgium",
     "Bulgaria",
     "Canada",
+    "Denmark",
     "Georgia",
+    "Germany",
     "Japan",
     "Latvia",
     "Lithuania",
@@ -10916,7 +10775,10 @@
    "eu": "",
    "us": false,
    "eea": [
+    "BE",
     "BG",
+    "DE",
+    "DK",
     "ES",
     "LT",
     "LV",
@@ -10925,7 +10787,7 @@
    ],
    "ukch": [],
    "india": false,
-   "ncountries": 9,
+   "ncountries": 12,
    "rev": {
     "asset": "Efgartigimod (Vyvgart)",
     "kind": "actual",
@@ -11147,6 +11009,46 @@
    "india": false,
    "ncountries": 5,
    "rev": null
+  },
+  {
+   "nct": "NCT07873801",
+   "title": "A Study of Lebrikizumab in Adults and Adolescents With Face and Neck Atopic Dermatitis",
+   "phase": "3",
+   "status": "Not yet recruiting",
+   "sponsor": "Almirall, S.A.",
+   "stype": "Industry",
+   "drugs": "Lebrikizumab",
+   "cond": "Atopic Dermatitis",
+   "n": 230,
+   "start": "2026-11",
+   "pcd": "2028-02",
+   "countries": [],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "E",
+   "ev": "Ebglyss 250 mg solution for injection in pre-filled syringe: Solution for injection · Device: N/A — Lebrikizumab 250 mg will be provided as a solution for inje…",
+   "eu": "2025-525133-31-00",
+   "src": "EU",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 0,
+   "rev": {
+    "asset": "Lebrikizumab (Ebglyss, Europe)",
+    "kind": "forecast",
+    "ww": null,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Almirall target, via Investing.com",
+    "url": "https://www.investing.com/news/earnings/almirall-cosses-1-bln-in-sales-as-eczema-drug-ebglyss-triples-in-fy25-4517798",
+    "date": "2026-02-23",
+    "note": "Almirall holds European rights: peak above EUR 450m; FY2025 European sales EUR 110.8m",
+    "us": null,
+    "europe": 0.51
+   }
   },
   {
    "nct": "NCT04033445",
@@ -12319,14 +12221,14 @@
    "nct": "NCT06655155",
    "title": "A Study to Assess the Efficacy and Safety of Efgartigimod PH20 SC in Adults With Systemic Sclerosis",
    "phase": "2",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "argenx",
    "stype": "Industry",
    "drugs": "Efgartigimod PH20 SC",
    "cond": "Systemic Sclerosis (SSc)",
-   "n": 81,
+   "n": 87,
    "start": "2024-11",
-   "pcd": "2027-02",
+   "pcd": "2027-03",
    "countries": [
     "United States",
     "Argentina",
@@ -12749,7 +12651,9 @@
    "start": "2026-07",
    "pcd": "2027-10",
    "countries": [
-    "United States"
+    "United States",
+    "Greece",
+    "Spain"
    ],
    "cats": [
     "Prefilled syringe"
@@ -12759,10 +12663,13 @@
    "src": "CT",
    "eu": "",
    "us": true,
-   "eea": [],
+   "eea": [
+    "ES",
+    "GR"
+   ],
    "ukch": [],
    "india": false,
-   "ncountries": 1,
+   "ncountries": 3,
    "rev": null
   },
   {
@@ -12848,35 +12755,6 @@
    "eea": [
     "FR"
    ],
-   "ukch": [],
-   "india": false,
-   "ncountries": 1,
-   "rev": null
-  },
-  {
-   "nct": "NCT07844343",
-   "title": "A Trial to Evaluate the Safety and Usability of the SB15 PFS in Trial Participants With AMD, Macular Oedema Secondary to RVO, or Diabetic M…",
-   "phase": "2",
-   "status": "Active, not recruiting",
-   "sponsor": "Samsung Bioepis Co., Ltd.",
-   "stype": "Industry",
-   "drugs": "SB15 PFS",
-   "cond": "Neovascular Age-related Macular Degeneration; Macular Oedema Secondary to RVO",
-   "n": 33,
-   "start": "2026-09",
-   "pcd": "2026-09",
-   "countries": [
-    "South Korea"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "A",
-   "ev": "cal Trial to Evaluate the Safety and Usability of SB15 Pre-filled Syringe (PFS) in Trial Participants With Neovascular Age-relat",
-   "src": "CT",
-   "eu": "",
-   "us": false,
-   "eea": [],
    "ukch": [],
    "india": false,
    "ncountries": 1,
