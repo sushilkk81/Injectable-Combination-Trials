@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-10-19",
-  "updated_label": "19 Oct 2026",
+  "updated": "2026-10-26",
+  "updated_label": "26 Oct 2026",
   "count": 291,
   "us_share": 0.69,
   "europe_share": 0.22,
@@ -1312,6 +1312,34 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
+   "rev": null
+  },
+  {
+   "nct": "NCT07890909",
+   "title": "A Phase 3b Study of Participant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Pref…",
+   "phase": "3",
+   "status": "Not yet recruiting",
+   "sponsor": "Vertex Pharmaceuticals Incorporated",
+   "stype": "Industry",
+   "drugs": "Povetacicept; Sibeprenlimab",
+   "cond": "Immunoglobulin A Nephropathy",
+   "n": 40,
+   "start": "2026-10",
+   "pcd": "2027-12",
+   "countries": [],
+   "cats": [
+    "Autoinjector",
+    "Prefilled syringe"
+   ],
+   "basis": "A",
+   "ev": "articipant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Prefille",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 0,
    "rev": null
   },
   {
@@ -4566,7 +4594,8 @@
    "basis": "A",
    "ev": "filled syringe Anifrolumab. Anifrolumab solution for injection in pre-filled pen Anifrolumab. Anifrolumab concentrate for solution fo",
    "src": "CT",
-   "eu": "",
+   "eu": "2026-526419-13-00",
+   "ev_eu": "Saphnelo 120 mg solution for injection in pre-filled syringe: Solution for injection · Device: — The advanced pre-filled syringe (APFS) is a single-use, dispos…",
    "us": true,
    "eea": [
     "AT",
@@ -8386,64 +8415,11 @@
    "rev": null
   },
   {
-   "nct": "NCT06311682",
-   "title": "A Trial to Evaluate the Efficacy and Safety of Tralokinumab in Combination With Topical Corticosteroids in Children and Infants With Modera…",
-   "phase": "3",
-   "status": "Recruiting",
-   "sponsor": "LEO Pharma",
-   "stype": "Industry",
-   "drugs": "Tralokinumab + TCS",
-   "cond": "Atopic Dermatitis",
-   "n": 195,
-   "start": "2024-06",
-   "pcd": "2026-10",
-   "countries": [
-    "United States",
-    "Belgium",
-    "Canada",
-    "Croatia",
-    "Germany",
-    "Ireland",
-    "Italy",
-    "Netherlands",
-    "Poland",
-    "Romania",
-    "South Korea",
-    "Spain",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": "Adtralza 150 mg solution for injection in pre-filled syringe: Solution for injection in pre-filled syringe · Device: Adtralza — The APSF is a single-use, dispo…",
-   "eu": "2023-503630-44-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "BE",
-    "DE",
-    "ES",
-    "HR",
-    "IE",
-    "IT",
-    "NL",
-    "PL",
-    "RO"
-   ],
-   "ukch": [
-    "UK"
-   ],
-   "india": false,
-   "ncountries": 13,
-   "rev": null
-  },
-  {
    "nct": "NCT06318169",
    "title": "A Study Evaluating the Efficacy and Safety of Pegozafermin in Participants With MASH and Fibrosis (ENLIGHTEN-Fibrosis)",
    "phase": "3",
    "status": "Recruiting",
-   "sponsor": "89bio, Inc.",
+   "sponsor": "Hoffmann-La Roche",
    "stype": "Industry",
    "drugs": "Pegozafermin",
    "cond": "Metabolic Dysfunction-Associated Steatotic Liver Disease (MASH) / Nonalcoholic …",
@@ -8593,11 +8569,11 @@
    "title": "A Study to Evaluate the Efficacy and Safety of Pegozafermin in Participants With Compensated Cirrhosis Due to MASH",
    "phase": "3",
    "status": "Recruiting",
-   "sponsor": "89bio, Inc.",
+   "sponsor": "Hoffmann-La Roche",
    "stype": "Industry",
    "drugs": "Pegozafermin",
    "cond": "Metabolic Dysfunction-Associated Steatohepatitis (MASH) / Nonalcoholic Steatohe…",
-   "n": 762,
+   "n": 1800,
    "start": "2024-05",
    "pcd": "2028-06",
    "countries": [
@@ -9509,8 +9485,7 @@
    "basis": "A",
    "ev": "lacarsen will be provided as solution for injection in prefilled syringe 80 mg for subcutaneous injection. Placebo. Placebo w",
    "src": "CT",
-   "eu": "2024-516356-18-00",
-   "ev_eu": "TQJ230: Solution for injection in pre-filled syringe · Device: — Pre-filled syringe in needle safety device",
+   "eu": "",
    "us": true,
    "eea": [
     "DE",
@@ -9550,7 +9525,7 @@
    "cond": "Chronic Rhinosinusitis With Nasal Polyps",
    "n": 231,
    "start": "2025-02",
-   "pcd": "2026-10",
+   "pcd": "2026-09",
    "countries": [
     "United States",
     "Argentina",
@@ -9627,7 +9602,7 @@
    "cond": "Chronic Rhinosinusitis With Nasal Polyps",
    "n": 216,
    "start": "2025-02",
-   "pcd": "2026-11",
+   "pcd": "2026-09",
    "countries": [
     "United States",
     "Argentina",
@@ -10898,7 +10873,7 @@
    "nct": "NCT07793409",
    "title": "A Study to Evaluate the Long-term Safety and Efficacy of Lunsekimig in Adult Participants With Chronic Obstructive Pulmonary Disease (COPD)",
    "phase": "3",
-   "status": "Recruiting",
+   "status": "Enrolling by invitation",
    "sponsor": "Sanofi",
    "stype": "Industry",
    "drugs": "Lunsekimig",
@@ -10908,6 +10883,7 @@
    "pcd": "2031-07",
    "countries": [
     "United States",
+    "Canada",
     "United Kingdom"
    ],
    "cats": [
@@ -10923,7 +10899,7 @@
     "UK"
    ],
    "india": false,
-   "ncountries": 2,
+   "ncountries": 3,
    "rev": {
     "asset": "Lunsekimig",
     "kind": "forecast",
@@ -12799,7 +12775,7 @@
    "drugs": "Denosumab",
    "cond": "Type 1 Diabetes",
    "n": 45,
-   "start": "2024-09",
+   "start": "2025-05",
    "pcd": "2027-10",
    "countries": [
     "United States"
@@ -14148,7 +14124,8 @@
    "start": "2026-08",
    "pcd": "2028-01",
    "countries": [
-    "United States"
+    "United States",
+    "Canada"
    ],
    "cats": [
     "Drug-device combination (device type not stated)"
@@ -14161,7 +14138,7 @@
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 1,
+   "ncountries": 2,
    "rev": null
   },
   {
