@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-10-26",
-  "updated_label": "26 Oct 2026",
-  "count": 291,
+  "updated": "2026-11-02",
+  "updated_label": "2 Nov 2026",
+  "count": 292,
   "us_share": 0.69,
   "europe_share": 0.22,
   "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
@@ -347,10 +347,12 @@
     "Netherlands",
     "New Zealand",
     "Norway",
+    "Peru",
     "Philippines",
     "Poland",
     "Portugal",
     "Romania",
+    "Saudi Arabia",
     "Serbia",
     "Slovakia",
     "South Africa",
@@ -403,7 +405,7 @@
     "UK"
    ],
    "india": true,
-   "ncountries": 45,
+   "ncountries": 47,
    "rev": {
     "asset": "Selatogrel",
     "kind": "forecast",
@@ -1343,6 +1345,35 @@
    "rev": null
   },
   {
+   "nct": "NCT07898072",
+   "title": "Safety and Efficacy of Weekly Testosterone Cypionate Auto-Injector in Men With Hypogonadism",
+   "phase": "3",
+   "status": "Recruiting",
+   "sponsor": "Amneal Pharmaceuticals, LLC",
+   "stype": "Industry",
+   "drugs": "Testosterone Cypionate 75 mg; Testosterone cypionate 50 mg; Testosterone cypionate 100 mg",
+   "cond": "Male Hypogonadism",
+   "n": 190,
+   "start": "2026-09",
+   "pcd": "2027-03",
+   "countries": [
+    "United States"
+   ],
+   "cats": [
+    "Autoinjector"
+   ],
+   "basis": "A",
+   "ev": "Safety and Efficacy of Weekly Testosterone Cypionate Auto-Injector in Men With Hypogonadism. A Single-Blind, Single-Arm",
+   "src": "CT",
+   "eu": "",
+   "us": true,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
+   "rev": null
+  },
+  {
    "nct": "NCT03466411",
    "title": "A Study of the Efficacy and Safety of Guselkumab in Participants With Moderately to Severely Active Crohn's Disease",
    "phase": "2/3",
@@ -1476,6 +1507,33 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
+   "rev": null
+  },
+  {
+   "nct": "NCT07901244",
+   "title": "An Open-Label Study to Determine if BHV-1300 is Safe in Adults With Graves' Disease",
+   "phase": "2/3",
+   "status": "Not yet recruiting",
+   "sponsor": "Biohaven Therapeutics Ltd.",
+   "stype": "Industry",
+   "drugs": "BHV-1300",
+   "cond": "Graves' Disease",
+   "n": 356,
+   "start": "2026-10",
+   "pcd": "2028-12",
+   "countries": [],
+   "cats": [
+    "Autoinjector"
+   ],
+   "basis": "A",
+   "ev": "ves' Disease. BHV-1300. delivered subcutaneously via autoinjector. BHV-1300 is delivered subcutaneously via autoinject",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 0,
    "rev": null
   },
   {
@@ -7089,79 +7147,6 @@
    "rev": null
   },
   {
-   "nct": "NCT05263934",
-   "title": "Efficacy and Safety of Depemokimab Compared With Mepolizumab in Adults With Relapsing or Refractory Eosinophilic Granulomatosis With Polyan…",
-   "phase": "3",
-   "status": "Active, not recruiting",
-   "sponsor": "GlaxoSmithKline",
-   "stype": "Industry",
-   "drugs": "Depemokimab; Mepolizumab",
-   "cond": "Eosinophilic Granulomatosis With Polyangiitis",
-   "n": 163,
-   "start": "2022-07",
-   "pcd": "2026-09",
-   "countries": [
-    "United States",
-    "Argentina",
-    "Austria",
-    "Brazil",
-    "Canada",
-    "China",
-    "France",
-    "Germany",
-    "Israel",
-    "Italy",
-    "Japan",
-    "Netherlands",
-    "Poland",
-    "Portugal",
-    "South Korea",
-    "Spain",
-    "Sweden",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": ": Solution for injection · Device: Depemokimab solution for injection in pre-filled syringe — Depemokimab liquid drug product in a pre-filled syringe assembled…",
-   "eu": "2023-510019-20-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "AT",
-    "DE",
-    "ES",
-    "FR",
-    "IT",
-    "NL",
-    "PL",
-    "PT",
-    "SE"
-   ],
-   "ukch": [
-    "UK"
-   ],
-   "india": false,
-   "ncountries": 18,
-   "rev": {
-    "asset": "Depemokimab (Exdensur)",
-    "kind": "forecast",
-    "ww": 3.7,
-    "ww_low": null,
-    "ww_high": null,
-    "period": "peak",
-    "source": "GSK, via pharmaphorum",
-    "url": "https://pharmaphorum.com/news/gsk-closes-approval-asthma-hope-depemokimab",
-    "date": "2025-12-15",
-    "note": "GBP 3bn across all proposed indications",
-    "us": 2.55,
-    "europe": 0.81,
-    "us_modelled": true,
-    "eu_modelled": true
-   }
-  },
-  {
    "nct": "NCT05334368",
    "title": "Depemokimab in Participants With Hypereosinophilic Syndrome, Efficacy, and Safety Trial",
    "phase": "3",
@@ -9037,6 +9022,7 @@
     "France",
     "Georgia",
     "Germany",
+    "Hong Kong",
     "Hungary",
     "India",
     "Italy",
@@ -9087,7 +9073,7 @@
     "UK"
    ],
    "india": true,
-   "ncountries": 36,
+   "ncountries": 37,
    "rev": null
   },
   {
@@ -9117,6 +9103,7 @@
     "France",
     "Georgia",
     "Germany",
+    "Hong Kong",
     "Hungary",
     "India",
     "Italy",
@@ -9167,7 +9154,7 @@
     "UK"
    ],
    "india": true,
-   "ncountries": 36,
+   "ncountries": 37,
    "rev": null
   },
   {
@@ -10824,7 +10811,9 @@
    "start": "2026-06",
    "pcd": "2028-12",
    "countries": [
-    "United States"
+    "United States",
+    "Georgia",
+    "Ukraine"
    ],
    "cats": [
     "Prefilled syringe"
@@ -10837,7 +10826,7 @@
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 1,
+   "ncountries": 3,
    "rev": null
   },
   {
@@ -10958,7 +10947,7 @@
    "drugs": "Survodutide",
    "cond": "Obesity; Metabolic Dysfunction-associated Steatotic Liver Disease",
    "n": 600,
-   "start": "2026-10",
+   "start": "2026-11",
    "pcd": "2029-04",
    "countries": [
     "United States",
@@ -12389,12 +12378,12 @@
    "nct": "NCT07501702",
    "title": "A Phase 2 Study to Evaluate Povetacicept in Adults With Generalized Myasthenia Gravis",
    "phase": "2",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "Vertex Pharmaceuticals Incorporated",
    "stype": "Industry",
    "drugs": "Povetacicept",
    "cond": "Myasthenia Gravis, Generalized",
-   "n": 30,
+   "n": 34,
    "start": "2026-05",
    "pcd": "2029-03",
    "countries": [
@@ -13066,7 +13055,7 @@
    "nct": "NCT07617792",
    "title": "[Trial of device that is not approved or cleared by the U.S. FDA]",
    "phase": "3",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "[Redacted]",
    "stype": "Non-industry",
    "drugs": "ocrelizumab",
@@ -13295,14 +13284,14 @@
    "nct": "NCT06356571",
    "title": "A Study to Investigate Subcutaneous Isatuximab in Combination With Weekly Carfilzomib and Dexamethasone in Adult Participants With Relapsed…",
    "phase": "2",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "Sanofi",
    "stype": "Industry",
    "drugs": "Isatuximab SC-OBDS; Montelukast; Dexamethasone; Acetaminophen; Diphenhydramine; Methylprednisolone; Carfilzom…",
    "cond": "Plasma Cell Myeloma Refractory",
    "n": 64,
    "start": "2025-03",
-   "pcd": "2027-01",
+   "pcd": "2027-04",
    "countries": [
     "United States"
    ],
@@ -13978,6 +13967,7 @@
    "countries": [
     "United States",
     "Argentina",
+    "Austria",
     "Brazil",
     "China",
     "Denmark",
@@ -14003,6 +13993,7 @@
    "eu": "",
    "us": true,
    "eea": [
+    "AT",
     "DE",
     "DK",
     "ES",
@@ -14016,7 +14007,7 @@
     "UK"
    ],
    "india": false,
-   "ncountries": 17,
+   "ncountries": 18,
    "rev": {
     "asset": "NXT007",
     "kind": "forecast",
