@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-11-02",
-  "updated_label": "2 Nov 2026",
-  "count": 292,
+  "updated": "2026-11-09",
+  "updated_label": "9 Nov 2026",
+  "count": 295,
   "us_share": 0.69,
   "europe_share": 0.22,
   "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
@@ -1103,6 +1103,7 @@
     "Italy",
     "Japan",
     "Malaysia",
+    "Mexico",
     "Netherlands",
     "Norway",
     "Poland",
@@ -1149,7 +1150,7 @@
     "UK"
    ],
    "india": true,
-   "ncountries": 32,
+   "ncountries": 33,
    "rev": {
     "asset": "JNJ-4804 (guselkumab + golimumab)",
     "kind": "none",
@@ -1939,61 +1940,6 @@
    "india": false,
    "ncountries": 2,
    "rev": null
-  },
-  {
-   "nct": "NCT02612454",
-   "title": "Study to Assess the Long-term Safety of Dupilumab Administered in Participants ≥6 Months to <18 Years of Age With Atopic Dermatitis (AD)",
-   "phase": "3",
-   "status": "Active, not recruiting",
-   "sponsor": "Regeneron Pharmaceuticals",
-   "stype": "Industry",
-   "drugs": "Dupilumab",
-   "cond": "Atopic Dermatitis",
-   "n": 880,
-   "start": "2015-10",
-   "pcd": "2026-10",
-   "countries": [
-    "United States",
-    "Canada",
-    "Czechia",
-    "Germany",
-    "Hungary",
-    "Poland",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Pen injector"
-   ],
-   "basis": "B",
-   "ev": "ts with AD after re-treatment with dupilumab Optional Pre-filled Pen (PFP) Sub-Study in pediatric patients ≥2 to '<12 years",
-   "src": "CT",
-   "eu": "",
-   "us": true,
-   "eea": [
-    "CZ",
-    "DE",
-    "HU",
-    "PL"
-   ],
-   "ukch": [
-    "UK"
-   ],
-   "india": false,
-   "ncountries": 7,
-   "rev": {
-    "asset": "Dupilumab (Dupixent)",
-    "kind": "actual",
-    "ww": 17.73,
-    "ww_low": null,
-    "ww_high": null,
-    "period": "FY2025",
-    "source": "Sanofi FY2025 results",
-    "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-01-29-06-30-00-3228191-en.pdf",
-    "date": "2026-01-29",
-    "note": "EUR 15,714m; converted at ECB 2025 average $1.128",
-    "us": 13.01,
-    "europe": 2.21
-   }
   },
   {
    "nct": "NCT03811561",
@@ -4126,8 +4072,7 @@
    "basis": "A",
    "ev": "8). NNC0487-0111. NNC0487-0111 will be administered subcutaneously using PDS290 pre-filled pen-injectors to one of the body parts: thigh, abdomen or",
    "src": "CT",
-   "eu": "2024-520446-31-00",
-   "ev_eu": "NNC0487-0111 B 10141: Solution for injection in pre-filled pen",
+   "eu": "",
    "us": true,
    "eea": [
     "BG",
@@ -4277,12 +4222,12 @@
    "nct": "NCT07533175",
    "title": "AMAZE 2: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Type 2 Diabetes Lose We…",
    "phase": "3",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "Novo Nordisk A/S",
    "stype": "Industry",
    "drugs": "NNC0487-0111",
    "cond": "Diabetes Mellitus; Overweight",
-   "n": 630,
+   "n": 638,
    "start": "2026-04",
    "pcd": "2028-08",
    "countries": [
@@ -5053,7 +4998,7 @@
   },
   {
    "nct": "NCT07846865",
-   "title": "Tirzepatide Versus Positive Airway Pressure for the Treatment of Obstructive Sleep Apnoea: A Randomised Comparative Effectiveness Trial",
+   "title": "Tirzepatide Versus Positive Airway Pressure for the Treatment of Obstructive Sleep Apnoea",
    "phase": "2/3",
    "status": "Not yet recruiting",
    "sponsor": "Woolcock Institute of Medical Research",
@@ -7331,6 +7276,77 @@
    "rev": null
   },
   {
+   "nct": "NCT05360446",
+   "title": "Coronary Computed Tomography Study to Assess the Effect of Inclisiran in Addition to Maximally Tolerated Statin Therapy on Atherosclerotic …",
+   "phase": "3",
+   "status": "Active, not recruiting",
+   "sponsor": "Novartis Pharmaceuticals",
+   "stype": "Industry",
+   "drugs": "Inclisiran sodium 300 mg",
+   "cond": "Coronary Artery Disease",
+   "n": 610,
+   "start": "2022-07",
+   "pcd": "2026-10",
+   "countries": [
+    "United States",
+    "Argentina",
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "France",
+    "Hungary",
+    "India",
+    "Ireland",
+    "Italy",
+    "Japan",
+    "South Korea",
+    "Spain",
+    "Switzerland",
+    "United Kingdom"
+   ],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "E",
+   "ev": "INCLISIRAN: Solution for injection · Device: — Pre-filled syringe",
+   "eu": "2024-511126-31-00",
+   "src": "EU",
+   "us": true,
+   "eea": [
+    "BE",
+    "ES",
+    "FR",
+    "HU",
+    "IE",
+    "IT"
+   ],
+   "ukch": [
+    "CH",
+    "UK"
+   ],
+   "india": true,
+   "ncountries": 18,
+   "rev": {
+    "asset": "Inclisiran (Leqvio)",
+    "kind": "actual",
+    "ww": 1.2,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novartis Q4 2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
+    "date": "2026-02-04",
+    "note": "",
+    "us": 0.83,
+    "europe": 0.26,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
+  },
+  {
    "nct": "NCT05437575",
    "title": "Prehospital Analgesia INtervention Trial (PAIN)",
    "phase": "3",
@@ -7798,6 +7814,43 @@
    ],
    "india": true,
    "ncountries": 23,
+   "rev": null
+  },
+  {
+   "nct": "NCT05853354",
+   "title": "Comparative Efficacy, Safety, PK, and Immunogenicity Study",
+   "phase": "3",
+   "status": "Active, not recruiting",
+   "sponsor": "Luye Pharma Group Ltd.",
+   "stype": "Industry",
+   "drugs": "Denosumab",
+   "cond": "Osteoporosis, Postmenopausal",
+   "n": 392,
+   "start": "2023-04",
+   "pcd": "2025-07",
+   "countries": [
+    "United States",
+    "Bulgaria",
+    "Czechia",
+    "Japan",
+    "Poland"
+   ],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "A",
+   "ev": "reservative-free, solution of denosumab packed in 1-mL pre-filled glass syringes for subcutaneous administration.Each syringe contains",
+   "src": "CT",
+   "eu": "",
+   "us": true,
+   "eea": [
+    "BG",
+    "CZ",
+    "PL"
+   ],
+   "ukch": [],
+   "india": false,
+   "ncountries": 5,
    "rev": null
   },
   {
@@ -8397,6 +8450,59 @@
    "ukch": [],
    "india": false,
    "ncountries": 1,
+   "rev": null
+  },
+  {
+   "nct": "NCT06311682",
+   "title": "A Trial to Evaluate the Efficacy and Safety of Tralokinumab in Combination With Topical Corticosteroids in Children and Infants With Modera…",
+   "phase": "3",
+   "status": "Recruiting",
+   "sponsor": "LEO Pharma",
+   "stype": "Industry",
+   "drugs": "Tralokinumab + TCS",
+   "cond": "Atopic Dermatitis",
+   "n": 195,
+   "start": "2024-06",
+   "pcd": "2026-10",
+   "countries": [
+    "United States",
+    "Belgium",
+    "Canada",
+    "Croatia",
+    "Germany",
+    "Ireland",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Romania",
+    "South Korea",
+    "Spain",
+    "United Kingdom"
+   ],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "E",
+   "ev": "Adtralza 150 mg solution for injection in pre-filled syringe: Solution for injection in pre-filled syringe · Device: Adtralza — The APSF is a single-use, dispo…",
+   "eu": "2023-503630-44-00",
+   "src": "EU",
+   "us": true,
+   "eea": [
+    "BE",
+    "DE",
+    "ES",
+    "HR",
+    "IE",
+    "IT",
+    "NL",
+    "PL",
+    "RO"
+   ],
+   "ukch": [
+    "UK"
+   ],
+   "india": false,
+   "ncountries": 13,
    "rev": null
   },
   {
@@ -9214,6 +9320,7 @@
     "China",
     "France",
     "Germany",
+    "Israel",
     "Italy",
     "Japan",
     "Norway",
@@ -9246,7 +9353,7 @@
     "UK"
    ],
    "india": false,
-   "ncountries": 17,
+   "ncountries": 18,
    "rev": {
     "asset": "Guselkumab (Tremfya)",
     "kind": "actual",
@@ -10671,7 +10778,8 @@
    "pcd": "2028-06",
    "countries": [
     "United States",
-    "Georgia"
+    "Georgia",
+    "United Kingdom"
    ],
    "cats": [
     "Prefilled syringe"
@@ -10682,9 +10790,11 @@
    "eu": "",
    "us": true,
    "eea": [],
-   "ukch": [],
+   "ukch": [
+    "UK"
+   ],
    "india": false,
-   "ncountries": 2,
+   "ncountries": 3,
    "rev": {
     "asset": "Efgartigimod (Vyvgart)",
     "kind": "actual",
@@ -10721,6 +10831,8 @@
     "Denmark",
     "Georgia",
     "Germany",
+    "Greece",
+    "Italy",
     "Japan",
     "Latvia",
     "Lithuania",
@@ -10742,6 +10854,8 @@
     "DE",
     "DK",
     "ES",
+    "GR",
+    "IT",
     "LT",
     "LV",
     "PL",
@@ -10749,7 +10863,7 @@
    ],
    "ukch": [],
    "india": false,
-   "ncountries": 12,
+   "ncountries": 14,
    "rev": {
     "asset": "Efgartigimod (Vyvgart)",
     "kind": "actual",
@@ -11016,6 +11130,33 @@
    }
   },
   {
+   "nct": "NCT07917247",
+   "title": "Safety and Efficacy of Secukinumab Versus Mycophenolate Mofetil in Relapsing Myelin Oligodendrocyte Glycoprotein Antibody-associated Diseas…",
+   "phase": "3",
+   "status": "Not yet recruiting",
+   "sponsor": "Chinese PLA General Hospital",
+   "stype": "Non-industry",
+   "drugs": "Secukinumab; Mycophenolate mofetil (MMF)",
+   "cond": "Myelin Oligodendrocyte Glycoprotein Antibody-Associated Disease (MOGAD)",
+   "n": 130,
+   "start": "2026-11",
+   "pcd": "2028-05",
+   "countries": [],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "A",
+   "ev": "rial. Secukinumab. Secukinumab 300 mg s.c. (2 x 1 mL pre-filled syringe (PFS) 150 mg secukinumab) at Baseline, Weeks 1, 2, 3,",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 0,
+   "rev": null
+  },
+  {
    "nct": "NCT04033445",
    "title": "A Study of Guselkumab in Participants With Moderately to Severely Active Ulcerative Colitis",
    "phase": "2/3",
@@ -11229,7 +11370,7 @@
    "cond": "Generalized Myasthenia Gravis",
    "n": 8,
    "start": "2024-10",
-   "pcd": "2026-11",
+   "pcd": "2027-05",
    "countries": [
     "United States",
     "Italy",
@@ -12617,7 +12758,10 @@
    "pcd": "2027-10",
    "countries": [
     "United States",
+    "Belgium",
     "Greece",
+    "Japan",
+    "Netherlands",
     "Spain"
    ],
    "cats": [
@@ -12629,12 +12773,14 @@
    "eu": "",
    "us": true,
    "eea": [
+    "BE",
     "ES",
-    "GR"
+    "GR",
+    "NL"
    ],
    "ukch": [],
    "india": false,
-   "ncountries": 3,
+   "ncountries": 6,
    "rev": null
   },
   {
@@ -12977,8 +13123,8 @@
    "drugs": "Early Discharge with Lasix® ONYU (furosemide injection, for subcutaneous use) using SQIN-Infusor",
    "cond": "Heart Failure; Acute Decompensated Heart Failure",
    "n": 250,
-   "start": "2026-08",
-   "pcd": "2028-08",
+   "start": "2028-08",
+   "pcd": "2028-09",
    "countries": [
     "United States"
    ],
@@ -14171,7 +14317,7 @@
    "drugs": "Petrelintide",
    "cond": "Obesity or Overweight; Type 2 Diabetes",
    "n": 600,
-   "start": "2026-09",
+   "start": "2026-10",
    "pcd": "2028-10",
    "countries": [
     "United States"
