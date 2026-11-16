@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-11-09",
-  "updated_label": "9 Nov 2026",
+  "updated": "2026-11-16",
+  "updated_label": "16 Nov 2026",
   "count": 295,
   "us_share": 0.69,
   "europe_share": 0.22,
@@ -1292,7 +1292,7 @@
    "nct": "NCT07871409",
    "title": "Home Self-administration of Maridebart Cafraglutide With Autoinjector in Adults Living With Obesity or Overweight",
    "phase": "3",
-   "status": "Not yet recruiting",
+   "status": "Recruiting",
    "sponsor": "Amgen",
    "stype": "Industry",
    "drugs": "Maridebart cafraglutide",
@@ -1301,7 +1301,8 @@
    "start": "2026-10",
    "pcd": "2027-06",
    "countries": [
-    "United States"
+    "United States",
+    "Puerto Rico"
    ],
    "cats": [
     "Autoinjector"
@@ -1314,7 +1315,7 @@
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 1,
+   "ncountries": 2,
    "rev": null
   },
   {
@@ -2386,7 +2387,7 @@
    "ev": "istered subcutaneously (s.c.) once weekly using PDS290 pen-injector. Norditropin®. Norditropin® will be administered s.c",
    "src": "CT",
    "eu": "2023-506927-27-00",
-   "ev_eu": "Sogroya 10 mg/1.5 mL solution for injection in pre-filled pen: Solution for injection · Device: PDS290 pen-injector — The PDS290 pen-injector used in clinical …",
+   "ev_eu": "Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen: Solution for injection · Device: PDS290 pen-injector — The PDS290 pen-injector used in clinical t…",
    "us": true,
    "eea": [
     "AT",
@@ -4042,12 +4043,12 @@
    "nct": "NCT07400107",
    "title": "AMAZE 8: A Research Study Investigating How Well the Medicine NNC0487-0111 Compared to Semaglutide Helps People With Excess Body Weight and…",
    "phase": "3",
-   "status": "Not yet recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "Novo Nordisk A/S",
    "stype": "Industry",
    "drugs": "NNC0487-0111; Semaglutide",
    "cond": "Obesity; Overweight",
-   "n": 1000,
+   "n": 985,
    "start": "2026-05",
    "pcd": "2028-12",
    "countries": [
@@ -4421,13 +4422,13 @@
    "nct": "NCT07586540",
    "title": "Alirocumab for Stabilisation of Symptomatic Vulnerable Carotid Plaque",
    "phase": "3",
-   "status": "Not yet recruiting",
+   "status": "Recruiting",
    "sponsor": "Middle East North Africa Stroke and Interventional Neurothe…",
    "stype": "Non-industry",
    "drugs": "Alirocumab; Atorvastatin",
    "cond": "Carotid Stenosis",
    "n": 280,
-   "start": "2027-07",
+   "start": "2026-01",
    "pcd": "2030-03",
    "countries": [
     "Egypt",
@@ -5332,7 +5333,7 @@
    "stype": "Industry",
    "drugs": "Ianalumab",
    "cond": "Diffuse Cutaneous Systemic Sclerosis",
-   "n": 201,
+   "n": 203,
    "start": "2024-10",
    "pcd": "2027-07",
    "countries": [
@@ -7274,77 +7275,6 @@
    "india": false,
    "ncountries": 28,
    "rev": null
-  },
-  {
-   "nct": "NCT05360446",
-   "title": "Coronary Computed Tomography Study to Assess the Effect of Inclisiran in Addition to Maximally Tolerated Statin Therapy on Atherosclerotic …",
-   "phase": "3",
-   "status": "Active, not recruiting",
-   "sponsor": "Novartis Pharmaceuticals",
-   "stype": "Industry",
-   "drugs": "Inclisiran sodium 300 mg",
-   "cond": "Coronary Artery Disease",
-   "n": 610,
-   "start": "2022-07",
-   "pcd": "2026-10",
-   "countries": [
-    "United States",
-    "Argentina",
-    "Australia",
-    "Belgium",
-    "Brazil",
-    "Canada",
-    "Chile",
-    "China",
-    "France",
-    "Hungary",
-    "India",
-    "Ireland",
-    "Italy",
-    "Japan",
-    "South Korea",
-    "Spain",
-    "Switzerland",
-    "United Kingdom"
-   ],
-   "cats": [
-    "Prefilled syringe"
-   ],
-   "basis": "E",
-   "ev": "INCLISIRAN: Solution for injection · Device: — Pre-filled syringe",
-   "eu": "2024-511126-31-00",
-   "src": "EU",
-   "us": true,
-   "eea": [
-    "BE",
-    "ES",
-    "FR",
-    "HU",
-    "IE",
-    "IT"
-   ],
-   "ukch": [
-    "CH",
-    "UK"
-   ],
-   "india": true,
-   "ncountries": 18,
-   "rev": {
-    "asset": "Inclisiran (Leqvio)",
-    "kind": "actual",
-    "ww": 1.2,
-    "ww_low": null,
-    "ww_high": null,
-    "period": "FY2025",
-    "source": "Novartis Q4 2025 report",
-    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000007/a260204-99_1.htm",
-    "date": "2026-02-04",
-    "note": "",
-    "us": 0.83,
-    "europe": 0.26,
-    "us_modelled": true,
-    "eu_modelled": true
-   }
   },
   {
    "nct": "NCT05437575",
@@ -11535,13 +11465,13 @@
    "title": "Effects of Anakinra in Subjects With Corticosteroid-resistant/Intolerant Meniere's Disease and Autoimmune Inner Ear Disease",
    "phase": "2",
    "status": "Recruiting",
-   "sponsor": "Northwell Health",
+   "sponsor": "Andrea Vambutas",
    "stype": "Non-industry",
    "drugs": "Anakinra 100Mg/0.67Ml Inj Syringe (Period 1); Anakinra 100Mg/0.67Ml Inj Syringe (Period 2)",
    "cond": "Autoimmune Inner Ear Disease; Meniere's Disease",
    "n": 57,
    "start": "2019-01",
-   "pcd": "2026-12",
+   "pcd": "2027-12",
    "countries": [
     "United States"
    ],
@@ -13254,6 +13184,48 @@
    "rev": null
   },
   {
+   "nct": "NCT07930624",
+   "title": "A Study to Investigate Long-term Safety and Tolerability of Frexalimab in Participants With Multiple Sclerosis",
+   "phase": "3",
+   "status": "Not yet recruiting",
+   "sponsor": "Sanofi",
+   "stype": "Industry",
+   "drugs": "Frexalimab; Teriflunomide; MRI contrast-enhancing agents; Cholestyramine; charcoal",
+   "cond": "Multiple Sclerosis",
+   "n": 2500,
+   "start": "2027-02",
+   "pcd": "2031-05",
+   "countries": [],
+   "cats": [
+    "On-body / wearable injector"
+   ],
+   "basis": "B",
+   "ev": "ministration is conducted at home via SC large volume (OBDS VT) device) * There will be 3 follow up visi",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 0,
+   "rev": {
+    "asset": "Frexalimab",
+    "kind": "forecast",
+    "ww": 5.4,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "peak",
+    "source": "Sanofi R&D day (over EUR 5bn)",
+    "url": "https://www.biospace.com/sanofi-publishes-phase-ii-ms-data-in-nejm-eyes-5b-in-peak-annual-sales-for-pipeline-with-frexalimab",
+    "date": "2023-12-07",
+    "note": "Company says more than EUR 5bn",
+    "us": 3.73,
+    "europe": 1.19,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
+  },
+  {
    "nct": "NCT07412470",
    "title": "A Study to Investigate the Efficacy and Safety of Frexalimab Versus Tacrolimus in Adults Undergoing Kidney Transplantation",
    "phase": "2/3",
@@ -13402,7 +13374,7 @@
    "status": "Active, not recruiting",
    "sponsor": "Poitiers University Hospital",
    "stype": "Non-industry",
-   "drugs": "isatuximab; bortezomib",
+   "drugs": "bortezomib; isatuximab",
    "cond": "Multiple Myeloma; Myeloma Multiple",
    "n": 74,
    "start": "2023-10",
@@ -13902,7 +13874,7 @@
    "cond": "Wet Age Related Macular Degeneration; wAMD",
    "n": 400,
    "start": "2024-11",
-   "pcd": "2026-10",
+   "pcd": "2026-09",
    "countries": [
     "United States",
     "Brazil",
