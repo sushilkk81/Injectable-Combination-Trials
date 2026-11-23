@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-11-16",
-  "updated_label": "16 Nov 2026",
-  "count": 295,
+  "updated": "2026-11-23",
+  "updated_label": "23 Nov 2026",
+  "count": 301,
   "us_share": 0.69,
   "europe_share": 0.22,
   "share_basis": "Median of company-reported FY2025 regional splits for eight marketed injectable biologics on this page (Dupixent, Fasenra, Tezspire, Bimzelx, Zilbrysq, Entyvio, Benlysta, Sarclisa): US 69%, Europe 22%.",
@@ -1322,15 +1322,17 @@
    "nct": "NCT07890909",
    "title": "A Phase 3b Study of Participant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Pref…",
    "phase": "3",
-   "status": "Not yet recruiting",
+   "status": "Recruiting",
    "sponsor": "Vertex Pharmaceuticals Incorporated",
    "stype": "Industry",
    "drugs": "Povetacicept; Sibeprenlimab",
    "cond": "Immunoglobulin A Nephropathy",
    "n": 40,
-   "start": "2026-10",
+   "start": "2026-11",
    "pcd": "2027-12",
-   "countries": [],
+   "countries": [
+    "United States"
+   ],
    "cats": [
     "Autoinjector",
     "Prefilled syringe"
@@ -1339,11 +1341,11 @@
    "ev": "articipant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Prefille",
    "src": "CT",
    "eu": "",
-   "us": false,
+   "us": true,
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 0,
+   "ncountries": 1,
    "rev": null
   },
   {
@@ -1878,6 +1880,35 @@
    "ukch": [],
    "india": false,
    "ncountries": 6,
+   "rev": null
+  },
+  {
+   "nct": "NCT07946315",
+   "title": "Tirzepatide for the REduction of AceTazolamide in Idiopathic Intracranial Hypertension",
+   "phase": "2",
+   "status": "Not yet recruiting",
+   "sponsor": "Brigham and Women's Hospital",
+   "stype": "Non-industry",
+   "drugs": "Tirzepatide; Acetazolamide",
+   "cond": "Idiopathic Intracranial Hypertension (IIH); Pseudotumor Cerebri",
+   "n": 75,
+   "start": "2027-01",
+   "pcd": "2030-05",
+   "countries": [
+    "United States"
+   ],
+   "cats": [
+    "Autoinjector"
+   ],
+   "basis": "A",
+   "ev": "Tirzepatide. Weekly subcutaneous self-injection via autoinjector, starting 1 week after acetazolamide initiation at 2.5",
+   "src": "CT",
+   "eu": "",
+   "us": true,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
    "rev": null
   },
   {
@@ -3310,7 +3341,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Ebglyss 250 mg solution for injection in pre-filled pen: Solution for injection · Device: N/A — Lebrikizumab 250 mg solution for injection in pre-filled syring…",
+   "ev": "Ebglyss 250 mg solution for injection in pre-filled syringe: Solution for injection · Device: N/A — Lebrikizumab 250 mg solution for injection in pre-filled sy…",
    "eu": "2023-508235-31-00",
    "src": "EU",
    "us": false,
@@ -4734,6 +4765,35 @@
    }
   },
   {
+   "nct": "NCT07807995",
+   "title": "A Phase 3 Open-Label Study of Long-term Treatment With Povetacicept in Adults With Immunoglobulin A Nephropathy",
+   "phase": "3",
+   "status": "Enrolling by invitation",
+   "sponsor": "Vertex Pharmaceuticals Incorporated",
+   "stype": "Industry",
+   "drugs": "Povetacicept",
+   "cond": "Immunoglobulin A Nephropathy",
+   "n": 605,
+   "start": "2026-09",
+   "pcd": "2029-12",
+   "countries": [
+    "United States"
+   ],
+   "cats": [
+    "Pen injector"
+   ],
+   "basis": "E",
+   "ev": "ALPN-303 Solution for Injection in Pre-filled Pen: Solution for injection in pre-filled pen",
+   "eu": "2025-525064-14-00",
+   "src": "EU",
+   "us": true,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
+   "rev": null
+  },
+  {
    "nct": "NCT07822061",
    "title": "AMAZE 10: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People in Japan With Excess Body Weight Lose Weight",
    "phase": "3",
@@ -4835,6 +4895,51 @@
    "india": false,
    "ncountries": 1,
    "rev": null
+  },
+  {
+   "nct": "NCT07866066",
+   "title": "Maridebart Cafraglutide Versus Semaglutide in Participants With Type 2 Diabetes",
+   "phase": "3",
+   "status": "Recruiting",
+   "sponsor": "Amgen",
+   "stype": "Industry",
+   "drugs": "Maridebart cafraglutide; Semaglutide",
+   "cond": "Diabetes Mellitus, Type 2",
+   "n": 1300,
+   "start": "2026-10",
+   "pcd": "2028-09",
+   "countries": [
+    "United States",
+    "Canada"
+   ],
+   "cats": [
+    "Pen injector"
+   ],
+   "basis": "E",
+   "ev": "SEMAGLUTIDE (comparator): Solution for injection · Device: Ozempic pre-filled pen — Disposable single-patient-use pre-filled pen for subcutaneous administratio…",
+   "eu": "2025-523772-22-00",
+   "src": "EU",
+   "us": true,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 2,
+   "rev": {
+    "asset": "Semaglutide (Ozempic + Wegovy)",
+    "kind": "actual",
+    "ww": 31.15,
+    "ww_low": null,
+    "ww_high": null,
+    "period": "FY2025",
+    "source": "Novo Nordisk FY2025 report",
+    "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000006/caq42025.htm",
+    "date": "2026-02-03",
+    "note": "DKK 206,195m (Ozempic 127,089m, Wegovy 79,106m) at Novo 2025 average DKK 6.62/$",
+    "us": 21.49,
+    "europe": 6.85,
+    "us_modelled": true,
+    "eu_modelled": true
+   }
   },
   {
    "nct": "NCT03899402",
@@ -4956,7 +5061,7 @@
    "cond": "Primary Membranous Nephropathy",
    "n": 176,
    "start": "2025-09",
-   "pcd": "2028-12",
+   "pcd": "2029-06",
    "countries": [
     "United States",
     "Australia",
@@ -5789,7 +5894,7 @@
    "ev": "cipants will receive risankizumab dose 1 or dose 2 via pre-filled syringes Q8W.. Participants who tolerate and derive benefit f",
    "src": "CT",
    "eu": "2023-506399-28-00",
-   "ev_eu": "Risankizumab: Solution for injection in pre-filled syringe",
+   "ev_eu": "ABBV-066: Solution for injection in pre-filled syringe",
    "us": true,
    "eea": [
     "AT",
@@ -6137,8 +6242,7 @@
    "basis": "A",
    "ev": "mg/mL solution for injection in a single accessorized prefilled syringe (APFS) will be administered subcutaneously (SC) Mepo",
    "src": "CT",
-   "eu": "2023-510248-19-00",
-   "ev_eu": "Fasenra 30 mg solution for injection in pre-filled syringe: Solution for injection · Device: — The APFS uses a prefilled syringe sub-assembly (PFS-SA) as the p…",
+   "eu": "",
    "us": true,
    "eea": [
     "BE",
@@ -8225,7 +8329,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Risankizumab: Solution for injection in pre-filled syringe",
+   "ev": "ABBV-066: Solution for injection in pre-filled syringe",
    "eu": "2023-506026-36-00",
    "src": "EU",
    "us": true,
@@ -9265,7 +9369,7 @@
     "Prefilled syringe"
    ],
    "basis": "E",
-   "ev": "Guselkumab - solution for injection in pre-filled syringe - 100 mg/mL: Injection/infusion · Device: 1 mL UltraSafe Plus™ Passive Needle Guard (PFS-U) — UltraSa…",
+   "ev": "Guselkumab: Solution for injection in pre-filled syringe · Device: The VarioJect™ variable dose injector (PFS-V) — The VarioJect™ variable dose injector (Vario…",
    "eu": "2023-509560-16-00",
    "src": "EU",
    "us": true,
@@ -10916,7 +11020,10 @@
    "pcd": "2031-07",
    "countries": [
     "United States",
+    "Argentina",
     "Canada",
+    "Chile",
+    "China",
     "United Kingdom"
    ],
    "cats": [
@@ -10932,7 +11039,7 @@
     "UK"
    ],
    "india": false,
-   "ncountries": 3,
+   "ncountries": 6,
    "rev": {
     "asset": "Lunsekimig",
     "kind": "forecast",
@@ -10997,6 +11104,7 @@
     "United States",
     "China",
     "Germany",
+    "Japan",
     "Spain",
     "United Kingdom"
    ],
@@ -11016,7 +11124,7 @@
     "UK"
    ],
    "india": false,
-   "ncountries": 5,
+   "ncountries": 6,
    "rev": null
   },
   {
@@ -11061,9 +11169,9 @@
   },
   {
    "nct": "NCT07917247",
-   "title": "Safety and Efficacy of Secukinumab Versus Mycophenolate Mofetil in Relapsing Myelin Oligodendrocyte Glycoprotein Antibody-associated Diseas…",
+   "title": "Safety and Efficacy of Secukinumab Versus Mycophenolate Mofetil in Relapsing Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease",
    "phase": "3",
-   "status": "Not yet recruiting",
+   "status": "Recruiting",
    "sponsor": "Chinese PLA General Hospital",
    "stype": "Non-industry",
    "drugs": "Secukinumab; Mycophenolate mofetil (MMF)",
@@ -11071,12 +11179,41 @@
    "n": 130,
    "start": "2026-11",
    "pcd": "2028-05",
-   "countries": [],
+   "countries": [
+    "China"
+   ],
    "cats": [
     "Prefilled syringe"
    ],
    "basis": "A",
    "ev": "rial. Secukinumab. Secukinumab 300 mg s.c. (2 x 1 mL pre-filled syringe (PFS) 150 mg secukinumab) at Baseline, Weeks 1, 2, 3,",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
+   "rev": null
+  },
+  {
+   "nct": "NCT07941622",
+   "title": "Study of Hexaxim Compared With Pentaxim Administered With a Monovalent Hepatitis B Vaccine in Healthy Chinese Infants.",
+   "phase": "3",
+   "status": "Not yet recruiting",
+   "sponsor": "Sanofi",
+   "stype": "Industry",
+   "drugs": "DTaP-IPV-HB-PRP~T combined vaccine; DTaP-IPV//PRP~T combined vaccine; monovalent Hep B vaccine",
+   "cond": "Haemophilus Influenzae Type b Immunisation; Hepatitis B Immunisation",
+   "n": 720,
+   "start": "2026-12",
+   "pcd": "2028-04",
+   "countries": [],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "A",
+   "ev": "ine. Pharmaceutical form:Suspension for injection in a pre-filled syringe Route of administration:IM injection DTaP-IPV//PRP~T",
    "src": "CT",
    "eu": "",
    "us": false,
@@ -11435,14 +11572,14 @@
    "nct": "NCT03522064",
    "title": "Bipolar Androgen Therapy + Carboplatin in mCRPC",
    "phase": "2",
-   "status": "Recruiting",
+   "status": "Active, not recruiting",
    "sponsor": "St Vincent's Hospital, Sydney",
    "stype": "Non-industry",
    "drugs": "Testosterone Enanthate 100 MG/ML Injectable Solution; Testosterone Enanthate 100 MG/ML Injectable Solution / …",
    "cond": "Castration-resistant Prostate Cancer; Homologous Recombination Deficiency",
    "n": 30,
    "start": "2018-07",
-   "pcd": "2026-09",
+   "pcd": "2026-12",
    "countries": [
     "Australia"
    ],
@@ -12212,6 +12349,7 @@
    "countries": [
     "United States",
     "Argentina",
+    "Belgium",
     "Brazil",
     "Canada",
     "Chile",
@@ -12240,6 +12378,7 @@
    "eu": "",
    "us": true,
    "eea": [
+    "BE",
     "DE",
     "ES",
     "HU",
@@ -12250,7 +12389,7 @@
     "UK"
    ],
    "india": true,
-   "ncountries": 20,
+   "ncountries": 21,
    "rev": null
   },
   {
@@ -12323,6 +12462,48 @@
    ],
    "india": false,
    "ncountries": 24,
+   "rev": null
+  },
+  {
+   "nct": "NCT06815471",
+   "title": "CRF2 Agonist for the Treatment of Worsening Heart Failure",
+   "phase": "2",
+   "status": "Recruiting",
+   "sponsor": "Corteria Pharmaceuticals",
+   "stype": "Industry",
+   "drugs": "COR-1167",
+   "cond": "Worsening Heart Failure",
+   "n": 210,
+   "start": "2025-08",
+   "pcd": "2027-07",
+   "countries": [
+    "United States",
+    "Czechia",
+    "Georgia",
+    "Hungary",
+    "Poland",
+    "Romania",
+    "Serbia",
+    "Spain"
+   ],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "E",
+   "ev": "COR-1167: Solution for injection in pre-filled syringe · Device: Prefilled Syringe (Safety Device) — The prefilled syringe is equipped with a needle guard whic…",
+   "eu": "2024-518951-52-00",
+   "src": "EU",
+   "us": true,
+   "eea": [
+    "CZ",
+    "ES",
+    "HU",
+    "PL",
+    "RO"
+   ],
+   "ukch": [],
+   "india": false,
+   "ncountries": 8,
    "rev": null
   },
   {
@@ -12690,6 +12871,7 @@
     "United States",
     "Belgium",
     "Greece",
+    "Italy",
     "Japan",
     "Netherlands",
     "Spain"
@@ -12706,11 +12888,12 @@
     "BE",
     "ES",
     "GR",
+    "IT",
     "NL"
    ],
    "ukch": [],
    "india": false,
-   "ncountries": 6,
+   "ncountries": 7,
    "rev": null
   },
   {
@@ -12747,15 +12930,17 @@
    "nct": "NCT07760818",
    "title": "A Study to Assess Efficacy and Safety of Efgartigimod in Adults With Sjogren's Disease-associated Sensorimotor Polyneuropathy or Sensory Po…",
    "phase": "2",
-   "status": "Not yet recruiting",
+   "status": "Recruiting",
    "sponsor": "argenx",
    "stype": "Industry",
    "drugs": "efgartigimod PH20 SC",
    "cond": "Sjogrens Disease; Primary Sjögren's Syndrome Painful Sensory Neuropathies",
    "n": 75,
-   "start": "2026-08",
+   "start": "2026-10",
    "pcd": "2028-07",
-   "countries": [],
+   "countries": [
+    "United States"
+   ],
    "cats": [
     "Prefilled syringe"
    ],
@@ -12763,11 +12948,11 @@
    "ev": "fety of Efgartigimod PH20 Subcutaneous Administered by Prefilled Syringe in Adult Participants With Sjogren's Disease-Associate",
    "src": "CT",
    "eu": "",
-   "us": false,
+   "us": true,
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 0,
+   "ncountries": 1,
    "rev": null
   },
   {
@@ -12790,6 +12975,37 @@
    ],
    "basis": "A",
    "ev": "rollment. The investigational product is supplied as a pre-filled syringe containing 210 mg of tezepelumab in 1.91 mL (110 mg/mL",
+   "src": "CT",
+   "eu": "",
+   "us": false,
+   "eea": [
+    "FR"
+   ],
+   "ukch": [],
+   "india": false,
+   "ncountries": 1,
+   "rev": null
+  },
+  {
+   "nct": "NCT07946289",
+   "title": "Interleukin-1 Inhibition to Improve the Response of Myeloproliferative Neoplasms Resistant to Cytoreductive Treatment",
+   "phase": "2",
+   "status": "Not yet recruiting",
+   "sponsor": "University Hospital, Brest",
+   "stype": "Non-industry",
+   "drugs": "Anakinra",
+   "cond": "Myeloproliferative Neoplasm",
+   "n": 50,
+   "start": "2027-02",
+   "pcd": "2028-08",
+   "countries": [
+    "France"
+   ],
+   "cats": [
+    "Prefilled syringe"
+   ],
+   "basis": "A",
+   "ev": "erleukin-1 receptor antagonist (Kineret 100 mg/0.67 mL prefilled syringe). Administered at 100 mg once daily by subcutaneous in",
    "src": "CT",
    "eu": "",
    "us": false,
@@ -14234,6 +14450,7 @@
    "pcd": "2028-01",
    "countries": [
     "United States",
+    "Argentina",
     "Canada"
    ],
    "cats": [
@@ -14247,7 +14464,7 @@
    "eea": [],
    "ukch": [],
    "india": false,
-   "ncountries": 2,
+   "ncountries": 3,
    "rev": null
   },
   {
@@ -14263,7 +14480,9 @@
    "start": "2026-09",
    "pcd": "2030-07",
    "countries": [
-    "United States"
+    "United States",
+    "Taiwan",
+    "United Kingdom"
    ],
    "cats": [
     "Drug-device combination (device type not stated)"
@@ -14274,9 +14493,11 @@
    "eu": "",
    "us": true,
    "eea": [],
-   "ukch": [],
+   "ukch": [
+    "UK"
+   ],
    "india": false,
-   "ncountries": 1,
+   "ncountries": 3,
    "rev": null
   },
   {
